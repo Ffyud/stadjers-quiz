@@ -1,1 +1,0 @@
-# Stadjers Quiz
