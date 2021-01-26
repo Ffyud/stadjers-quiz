@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/stadjers-quiz/static/css/main.d2b1ef5f.chunk.css",
-    "main.js": "/stadjers-quiz/static/js/main.a959d678.chunk.js",
-    "main.js.map": "/stadjers-quiz/static/js/main.a959d678.chunk.js.map",
+    "main.js": "/stadjers-quiz/static/js/main.c9a346e1.chunk.js",
+    "main.js.map": "/stadjers-quiz/static/js/main.c9a346e1.chunk.js.map",
     "runtime-main.js": "/stadjers-quiz/static/js/runtime-main.564ddea5.js",
     "runtime-main.js.map": "/stadjers-quiz/static/js/runtime-main.564ddea5.js.map",
     "static/js/2.678f10b2.chunk.js": "/stadjers-quiz/static/js/2.678f10b2.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.564ddea5.js",
     "static/js/2.678f10b2.chunk.js",
     "static/css/main.d2b1ef5f.chunk.css",
-    "static/js/main.a959d678.chunk.js"
+    "static/js/main.c9a346e1.chunk.js"
   ]
 }
