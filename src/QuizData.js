@@ -27,7 +27,7 @@ export const quizData = [
         "id": 3,
         "vraag": "Welk gebouw is dit?",
         "antwoorden": [
-            "Het Goudkantoor", "Het Academiegebouw", "De Universiteitsbibliotheek", "Het Noorderpoortcollege"
+            "Het Goudkantoor", "Het Academiegebouw", "De Universiteitsbibliotheek", "Het Gemeentehuis"
         ],
         "correct": 1 
     },
@@ -35,7 +35,7 @@ export const quizData = [
         "id": 4,
         "vraag": "Waar staat dit beeld?",
         "antwoorden": [
-            "Bij het Martiniziekenhuis", "Bij het Harmoniecomplex", "Bij het UMCG", "Het Noorderpoortcollege"
+            "Bij het Martiniziekenhuis", "Bij het Harmoniecomplex", "Bij het UMCG", "Bij het Duisenberggebouw"
         ],
         "correct": 2 
     },
@@ -46,5 +46,13 @@ export const quizData = [
             "De Sint-Franciscuskerk", "De A-kerk", "De Sint-Josef Kathedraal", "De Nieuwe Kerk"
         ],
         "correct": 1 
+    },
+    {
+        "id": 6,
+        "vraag": "Welk gasthuis is dit?",
+        "antwoorden": [
+            "Het Pepergasthuis", "Het Sint Anthonygasthuis", "Het Sint Martinusgasthuis", "Het Pelstergasthuis"
+        ],
+        "correct": 0 
     }
 ];
