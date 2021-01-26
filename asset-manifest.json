@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/stadjers-quiz/static/css/main.d2b1ef5f.chunk.css",
-    "main.js": "/stadjers-quiz/static/js/main.c9a346e1.chunk.js",
-    "main.js.map": "/stadjers-quiz/static/js/main.c9a346e1.chunk.js.map",
+    "main.css": "/stadjers-quiz/static/css/main.5673461b.chunk.css",
+    "main.js": "/stadjers-quiz/static/js/main.8ab01f10.chunk.js",
+    "main.js.map": "/stadjers-quiz/static/js/main.8ab01f10.chunk.js.map",
     "runtime-main.js": "/stadjers-quiz/static/js/runtime-main.564ddea5.js",
     "runtime-main.js.map": "/stadjers-quiz/static/js/runtime-main.564ddea5.js.map",
     "static/js/2.678f10b2.chunk.js": "/stadjers-quiz/static/js/2.678f10b2.chunk.js",
     "static/js/2.678f10b2.chunk.js.map": "/stadjers-quiz/static/js/2.678f10b2.chunk.js.map",
     "index.html": "/stadjers-quiz/index.html",
-    "static/css/main.d2b1ef5f.chunk.css.map": "/stadjers-quiz/static/css/main.d2b1ef5f.chunk.css.map",
+    "static/css/main.5673461b.chunk.css.map": "/stadjers-quiz/static/css/main.5673461b.chunk.css.map",
     "static/js/2.678f10b2.chunk.js.LICENSE.txt": "/stadjers-quiz/static/js/2.678f10b2.chunk.js.LICENSE.txt",
     "static/media/0.359cc080.JPG": "/stadjers-quiz/static/media/0.359cc080.JPG",
     "static/media/1.9cc4b294.JPG": "/stadjers-quiz/static/media/1.9cc4b294.JPG",
     "static/media/2.72aacefa.JPG": "/stadjers-quiz/static/media/2.72aacefa.JPG",
     "static/media/3.099096ea.JPG": "/stadjers-quiz/static/media/3.099096ea.JPG",
     "static/media/4.58a409b4.JPG": "/stadjers-quiz/static/media/4.58a409b4.JPG",
-    "static/media/5.23e9c207.JPG": "/stadjers-quiz/static/media/5.23e9c207.JPG"
+    "static/media/5.23e9c207.JPG": "/stadjers-quiz/static/media/5.23e9c207.JPG",
+    "static/media/6.89c085ec.JPG": "/stadjers-quiz/static/media/6.89c085ec.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.564ddea5.js",
     "static/js/2.678f10b2.chunk.js",
-    "static/css/main.d2b1ef5f.chunk.css",
-    "static/js/main.c9a346e1.chunk.js"
+    "static/css/main.5673461b.chunk.css",
+    "static/js/main.8ab01f10.chunk.js"
   ]
 }
