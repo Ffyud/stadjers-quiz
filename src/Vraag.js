@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { quizFotos } from './QuizFotos';
 
 class Vraag extends Component {
   constructor() {
@@ -14,15 +15,19 @@ class Vraag extends Component {
     this.props.antwoordGekozen(event)
   }
 
+  geefFoto(id) {
+    var foto = quizFotos["foto" + id]
+    return foto
+  }
+
   render() {
     const { vraagData } = this.props;
-
     return (
       <div key={vraagData.id} className="vraagKader">
         {this.state.imgLoaded ? null : 
           <div className='imgPlaceholder'></div>
         }
-        <img alt="derk" style={this.state.imgLoaded ? {} : {display: 'none'}} onLoad={this.isGeladen} src={vraagData.afbeelding} />
+        <img alt="derk!" style={this.state.imgLoaded ? {} : {display: 'none'}} onLoad={this.isGeladen} src={this.geefFoto(vraagData.id)} />
         <div className="vraagOpties">
           <div className="vraag">{vraagData.vraag}</div>
           <ul>
