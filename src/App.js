@@ -31,12 +31,11 @@ class App extends Component {
         <div className="App">
           <div className="intro">
           <div className="introText">
-          Welkom bij de grote Stadjers Quiz!
+          <h1>Welkom bij de grote Stadjers Quiz!</h1>
           Beantwoord 100 vragen over de Stad Groningen en laat zien dat jij de
           ultieme kenner bent.
           </div>
-          
-          <div className="introStart" onClick={this.vanStart}>Begin!</div>
+          <div className="introStart" onClick={this.vanStart}>START</div>
           </div>
           
         </div>
