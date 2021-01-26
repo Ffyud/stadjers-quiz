@@ -35,7 +35,7 @@ class QuizAfronden extends Component {
                             if (this.valideerAntwoord(data.id, data.correct) === true) {
                                 return (
                                     <li className="goud">
-                                        {nummer}.
+                                        {nummer}. 
                                         <span className='correct'>{data.antwoorden[data.correct]}</span>
                                     </li>
                                 );
@@ -43,7 +43,7 @@ class QuizAfronden extends Component {
                             else {
                                 return (
                                     <li className="fout">
-                                        {nummer}.
+                                        {nummer}. 
                                         <span className='incorrect'>{data.antwoorden[this.props.antwoorden[data.id]]}</span>
                                         <span className='correct'>{data.antwoorden[data.correct]}</span>
                                     </li>
