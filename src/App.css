@@ -42,7 +42,7 @@
   color: var(--blue);  
   font-weight: 600;
   max-width: 600px;
-  margin: 0px auto;
+  margin: 15px auto;
 }
 
 .intro .introStart {
@@ -87,7 +87,7 @@
   color: var(--blue);  
   font-weight: 600;
   max-width: 600px;
-  margin: 0px auto;
+  margin: 15px auto;
 }
 .afronding ul.afrondingResultaten {
   list-style-type: none;

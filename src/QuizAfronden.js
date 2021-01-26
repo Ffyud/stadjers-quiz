@@ -26,6 +26,9 @@ class QuizAfronden extends Component {
             <div className='afronding'>
                 <div className="afrondingText">
                     <h1>Je bent klaar!</h1>
+                    Bekijk hieronder je antwoorden.
+                </div>
+                <div className="afrondingText">        
                     <ul className="afrondingResultaten">
                         {quizData.map((data, key) => {
                             var nummer = data.id + 1;
