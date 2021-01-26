@@ -1,53 +1,62 @@
 import React, { Component } from 'react';
 import { quizData } from "./QuizData";
 import Vraag from './Vraag';
+import QuizAfronden from './QuizAfronden';
 
 class QuizVragen extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      vraagMeeBezig: 1,
-      aantalVragen: quizData.length,
+      vraagMeeBezig: 0,
+      aantalVragen: quizData.length-1,
       vragenBeantwoord: [],
-      antwoorden: []
+      antwoorden: [],
+      afgerond: false
     };
   }
 
   antwoordGekozen = (event) => {
     var vraagId = event.currentTarget.dataset.vraag;
-    var antwoordBijVraagId = event.currentTarget.dataset.antwoord; 
+    var antwoordBijVraagId = event.currentTarget.dataset.antwoord;
     this.setState({
       vragenBeantwoord: this.state.vragenBeantwoord.concat(vraagId),
       antwoorden: this.state.antwoorden.concat(antwoordBijVraagId),
-      vraagMeeBezig: this.state.vraagMeeBezig+1
+      vraagMeeBezig: this.state.vraagMeeBezig + 1
     });
   }
 
   componentDidMount() {
     console.log(this.state.aantalVragen);
-  } 
+  }
   componentDidUpdate() {
-    if(this.state.vraagMeeBezig > this.state.aantalVragen) {
+    if ((this.state.vraagMeeBezig > this.state.aantalVragen) & this.state.afgerond === false) {
       console.log("Alle vragen gehad!")
+      this.setState({ afgerond: true })
     }
   }
 
-  render() {  
-    return (
-      <div>
-        {
-        quizData.filter(data => data.id === this.state.vraagMeeBezig)
-          .map((data, key) => {
-            return (
-              <Vraag key={this.state.vraagMeeBezig} antwoordGekozen={this.antwoordGekozen} vraagData={data} />
-            );
-        })
-        }
+  render() {
+    if (this.state.afgerond === false) {
+      return (
+        <div>
+          {
+            quizData.filter(data => data.id === this.state.vraagMeeBezig)
+              .map((data, key) => {
+                return (
+                  <Vraag key={this.state.vraagMeeBezig} antwoordGekozen={this.antwoordGekozen} vraagData={data} />
+                );
+              })
+          }
         </div>
-    );
+      );
+    }
+    else {
+      return (
+        <QuizAfronden antwoorden={this.state.antwoorden} />
+      )
+    }
   }
-
 }
 
 export default QuizVragen;

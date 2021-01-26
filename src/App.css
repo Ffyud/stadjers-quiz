@@ -23,11 +23,16 @@
 }
 .intro {
   position: fixed;
-  max-width: inherit;
   padding: 0px 15px 0px 15px;
   top: 25%;
   text-align: center;
   user-select: none;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  min-width: 300px;
+  right: 0;
+  left: 0;
 }
 
 .intro .introText {
@@ -36,6 +41,8 @@
   border-radius: var(--radius);
   color: var(--blue);  
   font-weight: 600;
+  max-width: 600px;
+  margin: 0px auto;
 }
 
 .intro .introStart {
@@ -43,6 +50,9 @@
   color: var(--floral-white);
   cursor: pointer;
   line-height: 100px;
+  max-width: 600px;
+  padding: 25px;
+  margin: 0px auto;
   text-align: center;
   border-radius: var(--radius);
   font-weight: 800;
@@ -50,9 +60,66 @@
 }
 
 @keyframes pulse {
-  0% {margin: 15px 5px 0px 5px; line-height: 95px; font-size: 1.3em;}
-  50% {margin: 10px 0px 0px 0px;  line-height: 105px; font-size: 1.4em;}
-  100% {margin: 15px 5px 0px 5px;  line-height: 95px; font-size: 1.3em;}
+  0% {line-height: 95px; font-size: 1.3em;}
+  50% {line-height: 105px; font-size: 1.4em;}
+  100% {line-height: 95px; font-size: 1.3em;}
+}
+
+.afronding {
+  position: fixed;
+  max-width: inherit;
+  padding: 0px 15px 0px 15px;
+  top: 25%;
+  text-align: center;
+  user-select: none;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  min-width: 300px;
+  right: 0;
+  left: 0;
+}
+
+.afronding .afrondingText {
+  background: var(--floral-white);
+  padding: 25px;
+  border-radius: var(--radius);
+  color: var(--blue);  
+  font-weight: 600;
+  max-width: 600px;
+  margin: 0px auto;
+}
+.afronding ul.afrondingResultaten {
+  list-style-type: none;
+  padding: 10px 25px 20px 25px;
+  margin: 0px;
+}
+.afronding ul.afrondingResultaten li {
+  background: var(--green);
+  text-align: left;
+  padding: 10px;
+  margin: 0px 0px 5px 0px;
+  border-radius: var(--radius);
+  color: var(--floral-white);
+  font-weight: 600;
+}
+.afronding ul.afrondingResultaten li.goud {
+  background: var(--green);
+}
+.afronding ul.afrondingResultaten li.fout {
+  background: var(--red-alert);
+}
+.afronding ul.afrondingResultaten li.goud .correct {
+  display: inline-block;
+}
+.afronding ul.afrondingResultaten li.fout .incorrect{
+  text-decoration: line-through;
+  display: inline-block;
+}
+.afronding ul.afrondingResultaten li.fout .correct{
+  font-style: italic;
+  display: inline-block;
+  padding-left: 10px;
 }
 
 .vraagKader {
@@ -110,8 +177,7 @@
 .vraagOpties ul {
   list-style-type: none;
   padding: 10px 25px 20px 25px;
-  margin: 0px;
-  
+  margin: 0px; 
 }
 
 .vraagOpties ul li {

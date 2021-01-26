@@ -1,44 +1,50 @@
 export const quizData = [
     {
-        "id": 1,
+        "id": 0,
         "vraag": "Waar is dit gebouw?",
         "antwoorden": [
             "Bij de Gorechtkade", "Aan het Linneausplein", "Aan het Damsterdiep", "Bij het Pioenpark"
-        ]
+        ],
+        "correct": 1 
+    },
+    {
+        "id": 1,
+        "vraag": "Welk gebouw is dit?",
+        "antwoorden": [
+            "Het gemeentehuis", "Het Oude Groninger Museum", "Het Stadskantoor", "Het provinciehuis"
+        ],
+        "correct": 3 
     },
     {
         "id": 2,
         "vraag": "Welk gebouw is dit?",
         "antwoorden": [
-            "Het gemeentehuis", "Het provinciehuis", "Het Oude Groninger Museum", "Het Stadskantoor"
-        ]
+            "De Stadsschouwburg", "Het Grand Theatre", "Het Prinsentheater", "Het Noorderpoortcollege"
+        ],
+        "correct": 0 
     },
     {
         "id": 3,
         "vraag": "Welk gebouw is dit?",
         "antwoorden": [
-            "Het Grand Theatre", "De Stadsschouwburg", "Het Prinsentheater", "Het Noorderpoortcollege"
-        ]
+            "Het Goudkantoor", "Het Academiegebouw", "De Universiteitsbibliotheek", "Het Noorderpoortcollege"
+        ],
+        "correct": 1 
     },
     {
         "id": 4,
-        "vraag": "Welk gebouw is dit?",
+        "vraag": "Waar staat dit beeld?",
         "antwoorden": [
-            "Het Goudkantoor", "Het Academiegebouw", "De Universiteitsbibliotheek", "Het Noorderpoortcollege"
-        ]
+            "Bij het Martiniziekenhuis", "Bij het Harmoniecomplex", "Bij het UMCG", "Het Noorderpoortcollege"
+        ],
+        "correct": 2 
     },
     {
         "id": 5,
-        "vraag": "Waar staat dit beeld?",
-        "antwoorden": [
-            "Bij het Martiniziekenhuis", "Bij het UMCG", "Bij het Harmoniecomplex", "Het Noorderpoortcollege"
-        ]
-    },
-    {
-        "id": 6,
         "vraag": "Van welke gebouw is deze toren?",
         "antwoorden": [
             "De Sint-Franciscuskerk", "De A-kerk", "De Sint-Josef Kathedraal", "De Nieuwe Kerk"
-        ]
+        ],
+        "correct": 1 
     }
 ];
