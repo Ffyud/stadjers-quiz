@@ -1,27 +1,38 @@
 {
   "files": {
-    "main.css": "/stadjers-quiz/static/css/main.fc6c35b0.chunk.css",
-    "main.js": "/stadjers-quiz/static/js/main.8ab01f10.chunk.js",
-    "main.js.map": "/stadjers-quiz/static/js/main.8ab01f10.chunk.js.map",
+    "main.css": "/stadjers-quiz/static/css/main.d86dea31.chunk.css",
+    "main.js": "/stadjers-quiz/static/js/main.b3a3af04.chunk.js",
+    "main.js.map": "/stadjers-quiz/static/js/main.b3a3af04.chunk.js.map",
     "runtime-main.js": "/stadjers-quiz/static/js/runtime-main.564ddea5.js",
     "runtime-main.js.map": "/stadjers-quiz/static/js/runtime-main.564ddea5.js.map",
     "static/js/2.678f10b2.chunk.js": "/stadjers-quiz/static/js/2.678f10b2.chunk.js",
     "static/js/2.678f10b2.chunk.js.map": "/stadjers-quiz/static/js/2.678f10b2.chunk.js.map",
     "index.html": "/stadjers-quiz/index.html",
-    "static/css/main.fc6c35b0.chunk.css.map": "/stadjers-quiz/static/css/main.fc6c35b0.chunk.css.map",
+    "static/css/main.d86dea31.chunk.css.map": "/stadjers-quiz/static/css/main.d86dea31.chunk.css.map",
     "static/js/2.678f10b2.chunk.js.LICENSE.txt": "/stadjers-quiz/static/js/2.678f10b2.chunk.js.LICENSE.txt",
     "static/media/0.359cc080.JPG": "/stadjers-quiz/static/media/0.359cc080.JPG",
     "static/media/1.9cc4b294.JPG": "/stadjers-quiz/static/media/1.9cc4b294.JPG",
+    "static/media/10.d554736d.JPG": "/stadjers-quiz/static/media/10.d554736d.JPG",
+    "static/media/11.c61ba519.JPG": "/stadjers-quiz/static/media/11.c61ba519.JPG",
+    "static/media/12.45f82c69.JPG": "/stadjers-quiz/static/media/12.45f82c69.JPG",
+    "static/media/13.40df3455.JPG": "/stadjers-quiz/static/media/13.40df3455.JPG",
+    "static/media/14.96d016f0.JPG": "/stadjers-quiz/static/media/14.96d016f0.JPG",
+    "static/media/15.39c54ec7.JPG": "/stadjers-quiz/static/media/15.39c54ec7.JPG",
+    "static/media/16.192314c5.JPG": "/stadjers-quiz/static/media/16.192314c5.JPG",
+    "static/media/17.be0929c5.JPG": "/stadjers-quiz/static/media/17.be0929c5.JPG",
     "static/media/2.72aacefa.JPG": "/stadjers-quiz/static/media/2.72aacefa.JPG",
     "static/media/3.099096ea.JPG": "/stadjers-quiz/static/media/3.099096ea.JPG",
     "static/media/4.58a409b4.JPG": "/stadjers-quiz/static/media/4.58a409b4.JPG",
     "static/media/5.23e9c207.JPG": "/stadjers-quiz/static/media/5.23e9c207.JPG",
-    "static/media/6.89c085ec.JPG": "/stadjers-quiz/static/media/6.89c085ec.JPG"
+    "static/media/6.89c085ec.JPG": "/stadjers-quiz/static/media/6.89c085ec.JPG",
+    "static/media/7.30f46b7e.JPG": "/stadjers-quiz/static/media/7.30f46b7e.JPG",
+    "static/media/8.3bdbb789.JPG": "/stadjers-quiz/static/media/8.3bdbb789.JPG",
+    "static/media/9.99b0d23c.JPG": "/stadjers-quiz/static/media/9.99b0d23c.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.564ddea5.js",
     "static/js/2.678f10b2.chunk.js",
-    "static/css/main.fc6c35b0.chunk.css",
-    "static/js/main.8ab01f10.chunk.js"
+    "static/css/main.d86dea31.chunk.css",
+    "static/js/main.b3a3af04.chunk.js"
   ]
 }
