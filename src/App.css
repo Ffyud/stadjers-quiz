@@ -83,7 +83,7 @@
 }
 
 .afronding {
-  position: fixed;
+  position: relative;
   max-width: inherit;
   padding: 0px 15px 0px 15px;
   top: 25%;
@@ -108,7 +108,7 @@
 }
 .afronding ul.afrondingResultaten {
   list-style-type: none;
-  padding: 10px 25px 20px 25px;
+  padding: 20px 20px 20px 20px;
   margin: 0px;
 }
 .afronding ul.afrondingResultaten li {
@@ -120,6 +120,10 @@
   color: var(--floral-white);
   font-weight: 600;
 }
+.afronding ul.afrondingResultaten li:liast-child {
+  margin: 0px 0px 0px 0px;
+}
+
 .afronding ul.afrondingResultaten li.goud {
   background: var(--green);
 }
@@ -169,6 +173,25 @@
   max-width: 800px;
 }
 
+.vraagKader .niveauBadge {
+  color: var(--floral-white);
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+  position: absolute;
+  float: right;
+  right: 5px;
+  top: -10px;
+  line-height: 10px;
+  font-size: .8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  z-index: 900;
+}
+.niveauBadge.moeilijk { background: var(--red-alert); }
+.niveauBadge.makkelijk { background: var(--green); }
+.niveauBadge.gemiddeld { background: var(--blue); }
+
 .vraagOpties {
   background: var(--floral-white);
   border-radius: var(--radius);
@@ -193,7 +216,7 @@
 
 .vraagOpties ul {
   list-style-type: none;
-  padding: 10px 25px 20px 25px;
+  padding: 10px 20px 20px 20px;
   margin: 0px; 
 }
 
@@ -210,14 +233,6 @@
 
 .vraagOpties ul li:last-child {
   margin: 0px 0px 0px 0px;
-}
-
-.vraagOpties ul li:hover {
-  background: var(--dark-green);
-}
-
-.vraagOpties ul li:hover .antwoordNummer {
-  color: var(--dark-green);
 }
 
 .vraagOpties ul li .antwoordNummer {

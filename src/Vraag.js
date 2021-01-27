@@ -20,10 +20,26 @@ class Vraag extends Component {
     return foto
   }
 
+  toonNiveau(niveau) {
+    switch(niveau) {
+      case 1:
+        var niveauString = "makkelijk"
+        break;
+      case 2:
+        var niveauString = "gemiddeld"
+        break;
+      case 3:
+        var niveauString = "moeilijk"
+        break;  
+    }
+    return niveauString;
+  }
+
   render() {
     const { vraagData } = this.props;
     return (
       <div key={vraagData.id} className="vraagKader">
+        <div className={"niveauBadge " + this.toonNiveau(vraagData.niveau) +""}>{this.toonNiveau(vraagData.niveau)}</div>
         <div className="vraagOpties">
           <div className="vraag">{vraagData.vraag}</div>
           <ul>
