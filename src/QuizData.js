@@ -77,7 +77,7 @@ export const quizData = [
         "antwoorden": [
             "De Parelflat", "De Duindoornflat", "De Saffierflat", "De Wielewaalflat"
         ],
-        "correct": 1,
+        "correct": 3,
         "niveau": 2 
     },
     {

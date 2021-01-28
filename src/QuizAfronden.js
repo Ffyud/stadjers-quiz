@@ -4,11 +4,18 @@ import { quizData } from './QuizData';
 class QuizAfronden extends Component {
     constructor() {
         super();
-
+        this.state = {
+           aantalVragen: quizData.length-1,
+           aantalFouten: 0
+        };
+        this.fouten = 0;
     }
 
     componentDidMount() {
-        console.log("Afgerond. We hebben antwoorden hoor: " + this.props.antwoorden)
+        this.setState({
+            aantalFouten: this.fouten // meh blijft nul
+        });
+        console.log("Er zijn " + this.state.aantalFouten + " fouten gemaakt.")
     }
 
     valideerAntwoord(id, correct) {
@@ -17,11 +24,13 @@ class QuizAfronden extends Component {
         if (parseInt(Number(antwoord)) === correct) {
             goedOfFout = true;
         }
+        else {
+            goedOfFout = false;
+        }
         return goedOfFout;
     }
 
     render() {
-        const { antwoorden } = this.props;
         return (
             <div className='afronding'>
                 <div className="afrondingText">
@@ -31,10 +40,11 @@ class QuizAfronden extends Component {
                 <div className="afrondingText">        
                     <ul className="afrondingResultaten">
                         {quizData.map((data, key) => {
+                            var goedofFout = this.valideerAntwoord(data.id, data.correct)
                             var nummer = data.id + 1;
-                            if (this.valideerAntwoord(data.id, data.correct) === true) {
+                            if (goedofFout === true) {
                                 return (
-                                    <li className="goud">
+                                    <li key={key} className="goud">
                                         {nummer}. 
                                         <span className='correct'>{data.antwoorden[data.correct]}</span>
                                     </li>
@@ -42,7 +52,7 @@ class QuizAfronden extends Component {
                             }
                             else {
                                 return (
-                                    <li className="fout">
+                                    <li key={key} className="fout">
                                         {nummer}. 
                                         <span className='incorrect'>{data.antwoorden[this.props.antwoorden[data.id]]}</span>
                                         <span className='correct'>{data.antwoorden[data.correct]}</span>

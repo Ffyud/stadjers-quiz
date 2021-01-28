@@ -21,16 +21,20 @@ class Vraag extends Component {
   }
 
   toonNiveau(niveau) {
+    var niveauString;
     switch(niveau) {
       case 1:
-        var niveauString = "makkelijk"
+        niveauString = "makkelijk"
         break;
       case 2:
-        var niveauString = "gemiddeld"
+        niveauString = "gemiddeld"
         break;
       case 3:
-        var niveauString = "moeilijk"
-        break;  
+        niveauString = "moeilijk"
+        break;
+      default:
+        niveauString = "gemiddeld"
+        break;
     }
     return niveauString;
   }
