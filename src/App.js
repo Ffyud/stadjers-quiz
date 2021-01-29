@@ -16,7 +16,16 @@ class App extends Component {
     });
   }
 
-  
+  componentDidMount() {
+    console.log('------------------------------------------');
+    console.log('                                          ');
+    console.log('          Welkom bij deze quiz!           ');
+    console.log('                                          ');
+    console.log(' Dit is een hobbyprojectje, te vinden op: ');
+    console.log('  https://github.com/Ffyud/stadjers-quiz  ');
+    console.log('                                          ');
+    console.log('------------------------------------------');
+  }
 
   render() {
     if(this.state.vanStart === true) {

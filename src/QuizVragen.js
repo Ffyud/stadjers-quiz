@@ -27,17 +27,9 @@ class QuizVragen extends Component {
   }
 
   componentDidMount() {
-    console.log('------------------------------------------');
-    console.log('                                          ');
-    console.log('          Welkom bij deze quiz!           ');
-    console.log('                                          ');
-    console.log(' Dit is een hobbyprojectje, te vinden op: ');
-    console.log('  https://github.com/Ffyud/stadjers-quiz  ');
-    console.log('                                          ');
-    console.log('------------------------------------------');
-
     console.log("Er zijn " + this.state.aantalVragen + " vragen.");
   }
+  
   componentDidUpdate() {
     if ((this.state.vraagMeeBezig > this.state.aantalVragen) & this.state.afgerond === false) {
       console.log("Alle vragen gehad!")
