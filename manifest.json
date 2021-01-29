@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Stadjers Quiz",
+  "name": "Stadjers Quiz",
+  "description": "Beantwoord de vragen over Stad Groningen en laat zien dat jij de ultieme kenner bent.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#F8C11E",
+  "background_color": "#F8C11E"
 }
