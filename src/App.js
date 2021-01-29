@@ -17,14 +17,12 @@ class App extends Component {
   }
 
   componentDidMount() {
-    console.log('------------------------------------------');
-    console.log('                                          ');
-    console.log('          Welkom bij deze quiz!           ');
-    console.log('                                          ');
-    console.log(' Dit is een hobbyprojectje, te vinden op: ');
-    console.log('  https://github.com/Ffyud/stadjers-quiz  ');
-    console.log('                                          ');
-    console.log('------------------------------------------');
+    console.log('---------------------');
+    console.log('                     ');
+    console.log('Welkom bij deze quiz!');
+    console.log('                     ');
+    console.log('---------------------');
+    console.log('https://github.com/Ffyud/stadjers-quiz');
   }
 
   render() {
@@ -40,8 +38,8 @@ class App extends Component {
         <div className="App">
           <div className="intro">
           <div className="introText">
-          <h1>Welkom bij de grote Stadjers Quiz!</h1>
-          Beantwoord 100 vragen over de Stad Groningen en laat zien dat jij de
+          <h1>Welkom bij de Stadjers Quiz!</h1>
+          Beantwoord de vragen over Stad Groningen en laat zien dat jij de
           ultieme kenner bent.
           </div>
           <div className="introStart" onClick={this.vanStart}>START</div>

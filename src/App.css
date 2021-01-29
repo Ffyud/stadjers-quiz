@@ -60,6 +60,7 @@
   font-weight: 600;
   max-width: 600px;
   margin: 15px auto;
+  animation: fadeInText .5s;
 }
 
 .intro .introStart {
@@ -73,13 +74,13 @@
   text-align: center;
   border-radius: var(--radius);
   font-weight: 800;
-  animation: pulse 2s infinite;
+  animation: pulse 4s infinite;
 }
 
 @keyframes pulse {
-  0% {line-height: 95px; font-size: 1.3em;}
-  50% {line-height: 105px; font-size: 1.4em;}
-  100% {line-height: 95px; font-size: 1.3em;}
+  0% {transform: scale(1); font-size: 1.5em;}
+  50% {transform: scale(0.97);  font-size: 1.3em;}
+  100% {transform: scale(1);  font-size: 1.5em;}
 }
 
 .afronding {
@@ -154,15 +155,15 @@
   display: block;
   height: 100%;
   object-fit: cover;
-  animation: fadeIn 2s;
+  animation: fadeIn 1s ease-out;
   margin: 15px;
   max-width: 800px;
   border-radius: var(--radius);
 }
 
 @keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {opacity: 0; transform: scale(0.97); }
+  100% {opacity: 1;  transform: scale(1); }
 }
 
 .vraagKader .imgPlaceholder {
@@ -187,23 +188,31 @@
   font-weight: 600;
   text-transform: uppercase;
   z-index: 900;
+  animation: scaleUp .5s;
 }
 .niveauBadge.moeilijk { background: var(--red-alert); }
 .niveauBadge.makkelijk { background: var(--green); }
 .niveauBadge.gemiddeld { background: var(--blue); }
+
+@keyframes scaleUp {
+  0% {transform: scale(0); opacity: 0;}
+  50% {transform: scale(1.1); opacity: 1;}
+  100% {transform: scale(1); opacity: 1;}
+
+}
 
 .vraagOpties {
   background: var(--floral-white);
   border-radius: var(--radius);
   bottom: calc(-100%);
   margin: 15px;
-  animation: fadeInVraag 1s;
+  z-index: 800;
+  position: relative;
 }
 
-@keyframes fadeInVraag {
-  0% {opacity: 0;}
-  50% {opacity: 0;}
-  100% {opacity: 1;}
+@keyframes fadeInText {
+  0% {opacity: 0; transform: scale(0.9);}
+  100% {opacity: 1; transform: scale(1);}
 }
 
 .vraagOpties .vraag {
@@ -212,6 +221,7 @@
   color: var(--blue);
   font-weight: 600;
   text-align: center;
+  animation: fadeInText 1s;
 }
 
 .vraagOpties ul {
