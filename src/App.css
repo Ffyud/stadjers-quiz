@@ -253,6 +253,10 @@
   cursor: pointer;
 }
 
+.vraagOpties ul li:focus {
+  box-shadow: inset 0px 0px 0px 5px var(--gold);
+}
+
 .vraagOpties ul li:last-child {
   margin: 0px 0px 0px 0px;
 }

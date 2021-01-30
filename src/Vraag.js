@@ -20,6 +20,12 @@ class Vraag extends Component {
     return foto
   }
 
+  handleEnter = (event) => {
+      if (event.key === 'Enter') {
+        document.activeElement.click();
+      }
+  }
+
   toonNiveau(niveau) {
     var niveauString;
     switch(niveau) {
@@ -42,21 +48,21 @@ class Vraag extends Component {
   render() {
     const { vraagData } = this.props;
     return (
-      <div key={vraagData.id} className="vraagKader">
+      <div role="dialog" aria-labelledby={"Vraag nummer " + vraagData.id} key={vraagData.id} className="vraagKader">
         <div className={"niveauBadge " + this.toonNiveau(vraagData.niveau) +""}>{this.toonNiveau(vraagData.niveau)}</div>
-        <div className="vraagOpties">
+        <div onKeyDown={this.handleEnter} className="vraagOpties">
           <div className="vraag">{vraagData.vraag}</div>
           <ul>
-            <li aria-label={vraagData.antwoorden[0]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='0'>
+            <li tabIndex={1} aria-label={vraagData.antwoorden[0]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='0'>
               <span className='antwoordNummer'>1</span><span>{vraagData.antwoorden[0]}</span>
             </li>
-            <li aria-label={vraagData.antwoorden[1]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='1'>
+            <li tabIndex={2} aria-label={vraagData.antwoorden[1]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='1'>
               <span className='antwoordNummer'>2</span><span>{vraagData.antwoorden[1]}</span>
             </li>
-            <li aria-label={vraagData.antwoorden[2]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='2'>
+            <li tabIndex={3} aria-label={vraagData.antwoorden[2]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='2'>
               <span className='antwoordNummer'>3</span><span>{vraagData.antwoorden[2]}</span>
             </li>
-            <li aria-label={vraagData.antwoorden[3]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='3'>
+            <li tabIndex={32767} aria-label={vraagData.antwoorden[3]} onClick={this.kiesAntwoord.bind(this)} data-vraag={vraagData.id} data-antwoord='3'>
               <span className='antwoordNummer'>4</span><span>{vraagData.antwoorden[3]}</span>
             </li>
           </ul>

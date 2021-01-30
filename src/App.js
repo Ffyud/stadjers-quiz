@@ -16,7 +16,17 @@ class App extends Component {
     });
   }
 
+  vanStartEnter = (event) => {
+    if (event.key === 'Enter') {
+      this.setState({
+        vanStart: true
+      });
+    }
+  }
+
   componentDidMount() {
+    document.addEventListener("keydown", this.vanStartEnter);
+
     console.log('---------------------');
     console.log('                     ');
     console.log('Welkom bij deze quiz!');
@@ -36,7 +46,7 @@ class App extends Component {
     else {
       return (
         <div className="App">
-          <div className="intro">
+          <div className="intro" >
           <div className="introText">
           <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
           Beantwoord de vragen over Stad Groningen en laat zien dat jij de
