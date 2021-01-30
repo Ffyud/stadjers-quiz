@@ -34,7 +34,7 @@ class QuizAfronden extends Component {
         return (
             <div className='afronding'>
                 <div className="afrondingText">
-                    <h1>Je bent klaar!</h1>
+                    <h1>Je bent klaar! &#127881;</h1>
                     Bekijk hieronder je antwoorden.
                 </div>
                 <div className="afrondingText">        

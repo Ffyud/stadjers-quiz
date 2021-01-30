@@ -62,6 +62,17 @@
   margin: 15px auto;
   animation: fadeInText .5s;
 }
+.intro .introText .title {
+  animation: boom 2s;
+  display: inline-block;
+}
+@keyframes boom {
+  0% {transform: scale(1);}
+  50% {tranform: scale(1.05);}
+  70% {transform: scale(1);}
+  80% {transform: scale(1.05);}
+  100% {transform: scale(1);}
+}
 
 .intro .introStart {
   background: var(--green);
@@ -86,8 +97,7 @@
 .afronding {
   position: relative;
   max-width: inherit;
-  padding: 0px 15px 0px 15px;
-  top: 25%;
+  padding: 100px 15px 0px 15px;
   text-align: center;
   user-select: none;
   margin-right: auto;
@@ -106,7 +116,9 @@
   font-weight: 600;
   max-width: 600px;
   margin: 15px auto;
+  animation: fadeInText .5s;
 }
+
 .afronding ul.afrondingResultaten {
   list-style-type: none;
   padding: 20px 20px 20px 20px;
@@ -148,7 +160,7 @@
   position: relative;
   max-height: 100%;
   user-select: none;
-
+  margin-bottom: 25%;
 }
 .vraagKader img {
   width: calc(100% - 30px);

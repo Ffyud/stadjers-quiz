@@ -38,7 +38,7 @@ class App extends Component {
         <div className="App">
           <div className="intro">
           <div className="introText">
-          <h1>Welkom bij de Stadjers Quiz!</h1>
+          <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
           Beantwoord de vragen over Stad Groningen en laat zien dat jij de
           ultieme kenner bent.
           </div>

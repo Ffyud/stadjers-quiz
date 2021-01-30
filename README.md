@@ -1,16 +1,11 @@
+[![GitHub issues](https://img.shields.io/github/issues/Ffyud/stadjers-quiz)](https://github.com/Ffyud/stadjers-quiz/issues) [![dependencies Status](https://status.david-dm.org/gh/ffyud/stadjers-quiz.svg)](https://david-dm.org/ffyud/stadjers-quiz)
 # Stadjers Quiz
-
-Momenteel nog in ontwikkelfase.
 
 Een quiz over Groningen Stad. Test je kennis van Stad op basis van locaties, architectuur en beelden.
 
-##### Wat moet nog
-
-- Resultaten tonen en deelbaar maken
-
 ### Quizvragen
 
-- De quizvragen bestaan uit een vraag, 4 antwoordkeuzes en een afbeelding. 
+- De quizvragen bestaan uit een vraag, 4 antwoordkeuzes, een niveau en een afbeelding. 
 - In QuizData.js staat een JSON-object waarin de vragen met relevante informatie gezet kunnen worden. 
 
 ### Bijhorende foto's
