@@ -93,7 +93,7 @@ export const quizData = [
         "id": 10,
         "vraag": "Waar staat dit beeld?",
         "antwoorden": [
-            "Bij het Oosterpark", "Bij Park Selwerd", "Bij het Roege Bos", "Bij het Sterrebos"
+            "Bij het Oosterpark", "Bij Park Selwerd", "Bij het Roege Bos", "Bij het Sterrenbos"
         ],
         "correct": 0,
         "niveau": 2 

@@ -46,7 +46,7 @@ class App extends Component {
     else {
       return (
         <div className="App">
-          <div className="intro" >
+          <div role="dialog" className="intro" >
           <div className="introText">
           <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
           Beantwoord de vragen over Stad Groningen en laat zien dat jij de

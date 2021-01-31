@@ -32,7 +32,7 @@ class QuizAfronden extends Component {
 
     render() {
         return (
-            <div className='afronding'>
+            <div role="dialog" className='afronding'>
                 <div className="afrondingText">
                     <h1>Je bent klaar! &#127881;</h1>
                     Bekijk hieronder je antwoorden.
