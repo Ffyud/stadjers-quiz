@@ -160,6 +160,33 @@ export const quizData = [
         ],
         "correct": 1,
         "niveau": 1 
+    },
+    {
+        "id": 18,
+        "vraag": "Welk gebouw heeft deze ramen?",
+        "antwoorden": [
+            "De Wolkenfabriek", "De Martinikerk", "De Korenbeurs", "Het Hoofdstation"
+        ],
+        "correct": 2,
+        "niveau": 1 
+    },
+    {
+        "id": 19,
+        "vraag": "Hoe heet deze fotogenieke straat?",
+        "antwoorden": [
+            "De Brugstraat", "Het Hoge der A", "De Visserstraat", "Het Lage der A"
+        ],
+        "correct": 3,
+        "niveau": 2 
+    },
+    {
+        "id": 20,
+        "vraag": "Hoe heet het gebouw met de paarse gloed",
+        "antwoorden": [
+            "De Dot", "Het EM2", "De Suikerfabriek", "Het Stadslab"
+        ],
+        "correct": 0,
+        "niveau": 1 
     }
 
 ];

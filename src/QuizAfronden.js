@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { quizData } from './QuizData';
+import QuizCanvas from './QuizCanvas';
 
 class QuizAfronden extends Component {
     constructor() {
@@ -35,8 +36,11 @@ class QuizAfronden extends Component {
             <div role="dialog" className='afronding'>
                 <div className="afrondingText">
                     <h1>Je bent klaar! &#127881;</h1>
-                    Bekijk hieronder je antwoorden.
+                    Bekijk hieronder het resultaat.
                 </div>
+                {/* <div className="afrondingText">
+                    <QuizCanvas/>
+                </div> */}
                 <div className="afrondingText">        
                     <ul className="afrondingResultaten">
                         {quizData.map((data, key) => {
