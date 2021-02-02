@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/stadjers-quiz/static/css/main.b7acb5c4.chunk.css",
-    "main.js": "/stadjers-quiz/static/js/main.932015e3.chunk.js",
-    "main.js.map": "/stadjers-quiz/static/js/main.932015e3.chunk.js.map",
+    "main.css": "/stadjers-quiz/static/css/main.92e8bc62.chunk.css",
+    "main.js": "/stadjers-quiz/static/js/main.ec76f793.chunk.js",
+    "main.js.map": "/stadjers-quiz/static/js/main.ec76f793.chunk.js.map",
     "runtime-main.js": "/stadjers-quiz/static/js/runtime-main.564ddea5.js",
     "runtime-main.js.map": "/stadjers-quiz/static/js/runtime-main.564ddea5.js.map",
     "static/js/2.678f10b2.chunk.js": "/stadjers-quiz/static/js/2.678f10b2.chunk.js",
     "static/js/2.678f10b2.chunk.js.map": "/stadjers-quiz/static/js/2.678f10b2.chunk.js.map",
     "index.html": "/stadjers-quiz/index.html",
-    "static/css/main.b7acb5c4.chunk.css.map": "/stadjers-quiz/static/css/main.b7acb5c4.chunk.css.map",
+    "static/css/main.92e8bc62.chunk.css.map": "/stadjers-quiz/static/css/main.92e8bc62.chunk.css.map",
     "static/js/2.678f10b2.chunk.js.LICENSE.txt": "/stadjers-quiz/static/js/2.678f10b2.chunk.js.LICENSE.txt",
     "static/media/0.359cc080.JPG": "/stadjers-quiz/static/media/0.359cc080.JPG",
     "static/media/1.9cc4b294.JPG": "/stadjers-quiz/static/media/1.9cc4b294.JPG",
@@ -20,7 +20,10 @@
     "static/media/15.39c54ec7.JPG": "/stadjers-quiz/static/media/15.39c54ec7.JPG",
     "static/media/16.192314c5.JPG": "/stadjers-quiz/static/media/16.192314c5.JPG",
     "static/media/17.be0929c5.JPG": "/stadjers-quiz/static/media/17.be0929c5.JPG",
+    "static/media/18.7aeb2977.JPG": "/stadjers-quiz/static/media/18.7aeb2977.JPG",
+    "static/media/19.3e53d33f.JPG": "/stadjers-quiz/static/media/19.3e53d33f.JPG",
     "static/media/2.72aacefa.JPG": "/stadjers-quiz/static/media/2.72aacefa.JPG",
+    "static/media/20.1790990a.JPG": "/stadjers-quiz/static/media/20.1790990a.JPG",
     "static/media/3.099096ea.JPG": "/stadjers-quiz/static/media/3.099096ea.JPG",
     "static/media/4.58a409b4.JPG": "/stadjers-quiz/static/media/4.58a409b4.JPG",
     "static/media/5.23e9c207.JPG": "/stadjers-quiz/static/media/5.23e9c207.JPG",
@@ -32,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.564ddea5.js",
     "static/js/2.678f10b2.chunk.js",
-    "static/css/main.b7acb5c4.chunk.css",
-    "static/js/main.932015e3.chunk.js"
+    "static/css/main.92e8bc62.chunk.css",
+    "static/js/main.ec76f793.chunk.js"
   ]
 }
