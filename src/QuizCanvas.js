@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react'
 
 const QuizCanvas = props => {
 
+    const eindCijfer = props.eindCijfer
     const canvasRef = useRef(null)
 
     const draw = ctx => {
@@ -16,7 +17,7 @@ const QuizCanvas = props => {
         ctx.beginPath();
         ctx.fillStyle = '#FFFFFF'
         ctx.font = "50px Arial";
-        ctx.fillText("95%",100,100)
+        ctx.fillText(eindCijfer+'%',50,100)
         ctx.fill()
       }
 
@@ -30,7 +31,7 @@ const QuizCanvas = props => {
       }, [draw])
 
     return (
-        <canvas width="200" height="200" ref={canvasRef} />
+        <canvas id="dezeCanvas" className="diploma" width="200" height="200" ref={canvasRef} />
     );
 
 }
