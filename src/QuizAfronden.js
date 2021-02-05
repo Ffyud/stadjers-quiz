@@ -50,10 +50,11 @@ class QuizAfronden extends Component {
         return (
             <div role="dialog" className='afronding'>
                  <div className="afrondingText">
-                     <h1>Je bent klaar! &#127881;</h1>
-                     Bekijk hieronder het resultaat.
+                     <h1>Bam, je bent klaar! &#127881;</h1>
+                     Man man man, wat een werk. Bekijk hieronder het resultaat.
                  </div>
                 <div className="afrondingText diploma">
+                    Hier een deelbaar plaatje voor de kameraden.
                     <QuizCanvas eindCijfer={this.state.eindCijfer}/>
                 </div>
                  <div className="afrondingText">        

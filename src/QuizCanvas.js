@@ -6,7 +6,7 @@ const QuizCanvas = props => {
     const canvasRef = useRef(null)
 
     const draw = ctx => {
-        ctx.fillStyle = '#F8C11E'
+        ctx.fillStyle = '#009C56'
         ctx.fillRect(0,0,200,200)
         ctx.closePath()
         ctx.beginPath()
@@ -15,9 +15,27 @@ const QuizCanvas = props => {
         ctx.arc(50, 100, 20, 0, 2*Math.PI)
         ctx.closePath();
         ctx.beginPath();
-        ctx.fillStyle = '#FFFFFF'
+        ctx.fillStyle = '#FDFBEF'
+        ctx.font = "23px Arial";
+        ctx.fillText('De Stadjers Quiz',13,30)
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.fillStyle = '#FDFBEF'
+        ctx.font = "15px Arial";
+        ctx.fillText('voltooid met ',63,55)
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.fillStyle = '#FFF';
+        ctx.fillRect(30, 65, 145, 55);
+        ctx.beginPath();
+        ctx.fillStyle = '#009C56';
         ctx.font = "50px Arial";
-        ctx.fillText(eindCijfer+'%',50,100)
+        ctx.fillText(''+eindCijfer+'%',53,110)
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.fillStyle = '#FDFBEF'
+        ctx.font = "15px Arial";
+        ctx.fillText('goud beantwoord!',42,140)
         ctx.fill()
       }
 
@@ -25,13 +43,14 @@ const QuizCanvas = props => {
     
         const canvas = canvasRef.current
         const context = canvas.getContext('2d')
-        
-        //Our draw come here
+
         draw(context)
       }, [draw])
 
     return (
+      <div>
         <canvas id="dezeCanvas" className="diploma" width="200" height="200" ref={canvasRef} />
+        </div>
     );
 
 }
