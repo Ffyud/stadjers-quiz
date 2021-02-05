@@ -54,8 +54,12 @@ class QuizAfronden extends Component {
                      Man man man, wat een werk. Bekijk hieronder het resultaat.
                  </div>
                 <div className="afrondingText diploma">
-                    Hier een deelbaar plaatje voor de kameraden.
+                    Hier een deelbaar plaatje. &#128076;
                     <QuizCanvas eindCijfer={this.state.eindCijfer}/>
+                    Deel de Quiz vooral met de kameraden.
+                    <a href={"https://telegram.me/share/url?url=https://ffyud.github.io/stadjers-quiz&text=Mijn score was " + this.state.eindCijfer + "%!"}>Telegram</a>
+                    <a href={"whatsapp://send?text=Mijn score was " + this.state.eindCijfer + "%!"}>Whatsapp</a>
+
                 </div>
                  <div className="afrondingText">        
                      <ul className="afrondingResultaten">
