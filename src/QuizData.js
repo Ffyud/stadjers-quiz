@@ -187,6 +187,24 @@ export const quizData = [
         ],
         "correct": 0,
         "niveau": 1 
+    },
+    {
+        "id": 21,
+        "vraag": "Welke straat is dit?",
+        "antwoorden": [
+            "De Poelestraat", "De Peperstraat", "De Oosterstraat", "De Papengang"
+        ],
+        "correct": 1,
+        "niveau": 1 
+    },
+    {
+        "id": 22,
+        "vraag": "Hoe heet dit beeld?",
+        "antwoorden": [
+            "Het Veulen", "Het Werkmanmonument", "Het Peerd van Ome Loeks", "De Boer Loeks"
+        ],
+        "correct": 2,
+        "niveau": 1 
     }
 
 ];

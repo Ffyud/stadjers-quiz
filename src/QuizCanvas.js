@@ -40,9 +40,6 @@ const QuizCanvas = props => {
   ctx.fillText('goud beantwoord!', 42, 140)
   ctx.fill()
 
-
-
-
   return (
     <div>
       <img className="diploma" src={canvas.toDataURL()} />

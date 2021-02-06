@@ -19,6 +19,10 @@ import foto17 from "./fotos/17.JPG";
 import foto18 from "./fotos/18.JPG";
 import foto19 from "./fotos/19.JPG";
 import foto20 from "./fotos/20.JPG";
+import foto21 from "./fotos/21.JPG";
+import foto22 from "./fotos/22.JPG";
+
+
 
 export const quizFotos = {
     foto0,
@@ -41,6 +45,8 @@ export const quizFotos = {
     foto17,
     foto18,
     foto19,
-    foto20
+    foto20,
+    foto21,
+    foto22
 
 };
