@@ -5,7 +5,7 @@ const QuizCanvas = props => {
   const eindCijfer = props.eindCijfer
 
   const { createCanvas} = require('canvas')
-  const canvas = createCanvas(200, 200)
+  const canvas = createCanvas(200, 160)
   const ctx = canvas.getContext('2d')
 
   ctx.fillStyle = '#009C56'

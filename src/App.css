@@ -310,6 +310,30 @@
 }
 
 .diploma {
-  padding-top: 15px;
-  user-select:text
+  user-select:text;
+}
+.diploma img {
+  margin: 25px 0px 25px 0px;
+  box-shadow: 0px 0px 0px 5px #FFF, 0px 2px 14px -2px #000;
+  animation: land 1s;
+}
+
+@keyframes land {
+  0% { transform: scale(1.1); }
+  100% { transform: scale(1);}
+}
+
+.delen span {
+  padding: 10px;
+  display: block;
+}
+
+.delen a {
+  padding: 10px;
+  border-radius: var(--radius);
+  margin-top: 5px;
+  background: var(--blue);
+  color: var(--floral-white);
+  text-decoration: none;
+  display: block;
 }
