@@ -3,12 +3,12 @@
 
 Een quiz over Groningen Stad. Test je kennis van Stad op basis van locaties, architectuur en beelden.
 
-### Quizvragen
+### Vragen
 
 - De quizvragen bestaan uit een vraag, 4 antwoordkeuzes, een niveau en een afbeelding. 
 - In QuizData.js staat een JSON-object waarin de vragen met relevante informatie gezet kunnen worden. 
 
-### Quizfoto's
+### Foto's
 
 - In /fotos staan de afbeeldingen die bij de vraag horen. 
 - De bestandsnamen moeten overeen komen met het vraagnummer. 
@@ -17,4 +17,6 @@ Een quiz over Groningen Stad. Test je kennis van Stad op basis van locaties, arc
 
 ### Resultaten
 
-Als alle vragen beantwoord zijn worden de resultaten getoond.
+- Als alle vragen beantwoord zijn worden de resultaten getoond.
+- De eindscore is het percentage goede antwoorden.
+- Er wordt een canvas element getekent die gedeeld kan worden als afbeelding.
