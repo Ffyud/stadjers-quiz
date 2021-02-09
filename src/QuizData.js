@@ -259,6 +259,77 @@ export const quizData = [
         ],
         "correct": 1,
         "niveau": 2 
+    },
+    {
+        "id": 29,
+        "vraag": "Welk gebouw is dit?",
+        "antwoorden": [
+            "Het Oude RKZ", "De Suikerfabriek", "'t Feithhuis", "Het Parcival College"
+        ],
+        "correct": 0,
+        "niveau": 2 
+    },
+    {
+        "id": 30,
+        "vraag": "Welke zwemlocatie is dit?",
+        "antwoorden": [
+            "Het Helperzwembad", "De Papiermolen", "Het Zwembad De Parrel", "De Zwemschool Aqua"
+        ],
+        "correct": 1,
+        "niveau": 1 
+    },
+    {
+        "id": 31,
+        "vraag": "Hoe heet dit plein?",
+        "antwoorden": [
+            "Het Van Brakelplein", "Het Nassauplein", "Het Floresplein", "Het Bernoulliplein"
+        ],
+        "correct": 3,
+        "niveau": 3 
+    },
+    {
+        "id": 32,
+        "vraag": "Wie wordt hier afgebeeld?",
+        "antwoorden": [
+            "Karel de Vijfde", "Carl von Rabenhaupt", "Sint-Joris", "Hendrik de Vries"
+        ],
+        "correct": 2,
+        "niveau": 2 
+    },
+    {
+        "id": 33,
+        "vraag": "Waar is dit?",
+        "antwoorden": [
+            "In Kardinge", "In Vinkhuizen", "Op de Zernike Campus", "In Corpus den Hoorn"
+        ],
+        "correct": 0,
+        "niveau": 2 
+    },
+    {
+        "id": 34,
+        "vraag": "Welk gebouw is dit?",
+        "antwoorden": [
+            "De Harmonie", "De Oude Bibliotheek", "Het Heymansgebouw", "De Bernoulliborg"
+        ],
+        "correct": 0,
+        "niveau": 3 
+    },
+    {
+        "id": 35,
+        "vraag": "Waar is dit?",
+        "antwoorden": [
+            "Bij het Poeleplein", "Bij het Hereplein", "Bij het Emmaplein", "Bij de Ossenmarkt"
+        ],
+        "correct": 1,
+        "niveau": 3 
+    },
+    {
+        "id": 36,
+        "vraag": "Wat is hier te zien?",
+        "antwoorden": [
+            "De Piccardthofplas", "Het Hoornsemeer", "De Reitdiephaven", "De Kardingerplas"
+        ],
+        "correct": 1,
+        "niveau": 3 
     }
-
 ];
