@@ -205,6 +205,60 @@ export const quizData = [
         ],
         "correct": 2,
         "niveau": 1 
+    },
+    {
+        "id": 23,
+        "vraag": "Waar hangt dit beeld?",
+        "antwoorden": [
+            "Boven het Waagplein", "Boven de Ossenmarkt", "Boven het Poeleplein", "Boven het Hereplein"
+        ],
+        "correct": 0,
+        "niveau": 2 
+    },
+    {
+        "id": 24,
+        "vraag": "Hoe wordt dit gebouw genoemd?",
+        "antwoorden": [
+            "De Helix", "De Tasman Toren", "De Woltring", "De Zwarte Doos"
+        ],
+        "correct": 3,
+        "niveau": 2 
+    },
+    {
+        "id": 25,
+        "vraag": "Wat staat hier?",
+        "antwoorden": [
+            "De Puddingfabriek", "De Suikerfabriek", "De EMG Faktors", "De Graan Fabriek"
+        ],
+        "correct": 1,
+        "niveau": 2 
+    },
+    {
+        "id": 26,
+        "vraag": "Hoe heet deze brug?",
+        "antwoorden": [
+            "De Bontebrug", "De Ebbingebrug", "De A-brug", "De Kijk in 't Jatbrug"
+        ],
+        "correct": 2,
+        "niveau": 3 
+    },
+    {
+        "id": 27,
+        "vraag": "Wat is hier gehuisfest?",
+        "antwoorden": [
+            "Het Simplon", "De Vera", "Het Grand Theatre", "Het Platformtheater"
+        ],
+        "correct": 0,
+        "niveau": 1 
+    },
+    {
+        "id": 28,
+        "vraag": "Waar is dit?",
+        "antwoorden": [
+            "Winkelcentrum Selwerd", "Winkelcentrum Paddepoel", "Winkelcentrum Vinkhuizen", "Winkelcentrum Leeuwenborg"
+        ],
+        "correct": 1,
+        "niveau": 2 
     }
 
 ];

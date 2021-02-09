@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import QuizVragen from './QuizVragen';
+import { quizData } from "./QuizData";
 
 class App extends Component {
   constructor(props) {
@@ -49,8 +50,7 @@ class App extends Component {
           <div role="dialog" className="intro" >
           <div className="introText">
           <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
-          Beantwoord de vragen over Stad Groningen en laat zien dat jij de
-          ultieme kenner bent.
+          Beantwoord {quizData.length} vragen over Stad Groningen en laat zien dat jij een kenner bent.
           </div>
           <div className="introStart" onClick={this.vanStart}>START</div>
           </div>
