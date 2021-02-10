@@ -264,7 +264,7 @@ export const quizData = [
         "id": 29,
         "vraag": "Welk gebouw is dit?",
         "antwoorden": [
-            "Het Oude RKZ", "De Suikerfabriek", "'t Feithhuis", "Het Parcival College"
+            "Het Oude RKZ", "De Suikerfabriek", "Het Feithhuis", "Het Parcival College"
         ],
         "correct": 0,
         "niveau": 2 
@@ -330,6 +330,87 @@ export const quizData = [
             "De Piccardthofplas", "Het Hoornsemeer", "De Reitdiephaven", "De Kardingerplas"
         ],
         "correct": 1,
+        "niveau": 3 
+    },
+    {
+        "id": 37,
+        "vraag": "Waar is deze kroeg?",
+        "antwoorden": [
+            "Aan de Meeuwerderweg", "Aan de Oosterweg", "Aan de Oosterstraat", "Aan de Hereweg"
+        ],
+        "correct": 1,
+        "niveau": 2 
+    },
+    {
+        "id": 38,
+        "vraag": "Wat is dit?",
+        "antwoorden": [
+            "Het Groninger Museum", "De Minerva", "Het Scheepvaartmuseum", "Het Paviljoen Duisenberg"
+        ],
+        "correct": 0,
+        "niveau": 1 
+    },
+    {
+        "id": 39,
+        "vraag": "Waar staat deze watertoren?",
+        "antwoorden": [
+            "Aan de Wilhelminakade", "Aan de Reitdieps kade", "Aan de Kraneweg", "Aan de Dr. C. Hofstede de Grootkade"
+        ],
+        "correct": 3,
+        "niveau": 3 
+    },
+    {
+        "id": 40,
+        "vraag": "Welk gebouw heeft dit dakterras",
+        "antwoorden": [
+            "Het Feithhuis", "Het Concerthuis", "Het Forum", "De Linnaeusborg"
+        ],
+        "correct": 2,
+        "niveau": 2 
+    },
+    {
+        "id": 41,
+        "vraag": "Waaraan ligt dit gebouw?",
+        "antwoorden": [
+            "Het Gedempte Zuiderdiep", "Het Gedempte Kattendiep", "De Oosterstraat", "De Coehoornsingel"
+        ],
+        "correct": 0,
+        "niveau": 2 
+    },
+    {
+        "id": 42,
+        "vraag": "Welke kerk is dit?",
+        "antwoorden": [
+            "De Nieuwe Kerk", "De Stadsparkkerk", "De Oosterkerk", "De Noorderkerk"
+        ],
+        "correct": 2,
+        "niveau": 3 
+    },
+    {
+        "id": 43,
+        "vraag": "Waaraan staat dit centrum?",
+        "antwoorden": [
+            "Het Boterdiep", "Het Gedempte Zuiderdiep", "Het Gedempte Kattendiep", "De Westersingel"
+        ],
+        "correct": 2,
+        "niveau": 2 
+    },
+    {
+        "id": 44,
+        "vraag": "Welke haven is dit?",
+        "antwoorden": [
+            "De Noorderhaven", "De Westerhaven", "De Oosterhaven", "De Reitdiephaven"
+        ],
+        "correct": 2,
+        "niveau": 2 
+    },
+    {
+        "id": 45,
+        "vraag": "Hoe wordt deze watertoren genoemd?",
+        "antwoorden": [
+            "De Bovenkamer", "De Puddingfabriek", "De Stadskamer", "De Wachtkamer"
+        ],
+        "correct": 0,
         "niveau": 3 
     }
 ];

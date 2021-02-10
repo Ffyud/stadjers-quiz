@@ -35,6 +35,15 @@ import foto33 from "./fotos/33.JPG";
 import foto34 from "./fotos/34.JPG";
 import foto35 from "./fotos/35.JPG";
 import foto36 from "./fotos/36.JPG";
+import foto37 from "./fotos/37.JPG";
+import foto38 from "./fotos/38.JPG";
+import foto39 from "./fotos/39.JPG";
+import foto40 from "./fotos/40.JPG";
+import foto41 from "./fotos/41.JPG";
+import foto42 from "./fotos/42.JPG";
+import foto43 from "./fotos/43.JPG";
+import foto44 from "./fotos/44.JPG";
+import foto45 from "./fotos/45.JPG";
 
 export const quizFotos = {
     foto0,
@@ -73,5 +82,14 @@ export const quizFotos = {
     foto33,
     foto34,
     foto35,
-    foto36
+    foto36,
+    foto37,
+    foto38,
+    foto39,
+    foto40,
+    foto41,
+    foto42,
+    foto43,
+    foto44,
+    foto45
 };
