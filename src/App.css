@@ -330,10 +330,14 @@
 
 .delen a {
   padding: 10px;
-  border-radius: var(--radius);
   margin-top: 5px;
+  color: var(--blue);
+  text-decoration: underline;
+  display: block;
+}
+.delen a.social {
+  border-radius: var(--radius);
+  text-decoration: none;
   background: var(--blue);
   color: var(--floral-white);
-  text-decoration: none;
-  display: block;
 }
