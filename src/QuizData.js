@@ -361,7 +361,7 @@ export const quizData = [
     },
     {
         "id": 40,
-        "vraag": "Welk gebouw heeft dit dakterras",
+        "vraag": "Welk gebouw heeft dit dakterras?",
         "antwoorden": [
             "Het Feithhuis", "Het Concerthuis", "Het Forum", "De Linnaeusborg"
         ],
