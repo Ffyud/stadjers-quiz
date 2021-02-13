@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/stadjers-quiz/static/css/main.394287c2.chunk.css",
-    "main.js": "/stadjers-quiz/static/js/main.46cf28a9.chunk.js",
-    "main.js.map": "/stadjers-quiz/static/js/main.46cf28a9.chunk.js.map",
+    "main.css": "/stadjers-quiz/static/css/main.0eeb8f52.chunk.css",
+    "main.js": "/stadjers-quiz/static/js/main.0be9ea40.chunk.js",
+    "main.js.map": "/stadjers-quiz/static/js/main.0be9ea40.chunk.js.map",
     "runtime-main.js": "/stadjers-quiz/static/js/runtime-main.564ddea5.js",
     "runtime-main.js.map": "/stadjers-quiz/static/js/runtime-main.564ddea5.js.map",
     "static/js/2.476c80b6.chunk.js": "/stadjers-quiz/static/js/2.476c80b6.chunk.js",
     "static/js/2.476c80b6.chunk.js.map": "/stadjers-quiz/static/js/2.476c80b6.chunk.js.map",
     "index.html": "/stadjers-quiz/index.html",
-    "static/css/main.394287c2.chunk.css.map": "/stadjers-quiz/static/css/main.394287c2.chunk.css.map",
+    "static/css/main.0eeb8f52.chunk.css.map": "/stadjers-quiz/static/css/main.0eeb8f52.chunk.css.map",
     "static/js/2.476c80b6.chunk.js.LICENSE.txt": "/stadjers-quiz/static/js/2.476c80b6.chunk.js.LICENSE.txt",
     "static/media/0.359cc080.JPG": "/stadjers-quiz/static/media/0.359cc080.JPG",
     "static/media/1.9cc4b294.JPG": "/stadjers-quiz/static/media/1.9cc4b294.JPG",
@@ -60,7 +60,7 @@
   "entrypoints": [
     "static/js/runtime-main.564ddea5.js",
     "static/js/2.476c80b6.chunk.js",
-    "static/css/main.394287c2.chunk.css",
-    "static/js/main.46cf28a9.chunk.js"
+    "static/css/main.0eeb8f52.chunk.css",
+    "static/js/main.0be9ea40.chunk.js"
   ]
 }
