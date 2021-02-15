@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import QuizVragen from './QuizVragen';
-import { quizData } from "./QuizData";
 
 class App extends Component {
   constructor(props) {
@@ -28,11 +27,11 @@ class App extends Component {
   componentDidMount() {
     document.addEventListener("keydown", this.vanStartEnter);
 
-    console.log('---------------------');
-    console.log('                     ');
-    console.log('Welkom bij deze quiz!');
-    console.log('                     ');
-    console.log('---------------------');
+    console.log('------------------------');
+    console.log('                        ');
+    console.log('Welkom bij deze quiz!   ');
+    console.log('Hier loggen we wat info.');
+    console.log('------------------------');
     console.log('https://github.com/Ffyud/stadjers-quiz');
   }
 
@@ -50,7 +49,7 @@ class App extends Component {
           <div role="dialog" className="intro" >
           <div className="introText">
           <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
-          Beantwoord {quizData.length} vragen over Stad Groningen en laat zien dat jij een kenner bent. <br/><br/>
+          Beantwoord 45 vragen over Stad Groningen en laat zien dat jij een kenner bent. <br/><br/>
           </div>
           <div className="introStart" onClick={this.vanStart}>START</div>
           Deel deze quiz vooral: <a href="https://brakdag.nl/stadjers-quiz">brakdag.nl/stadjers-quiz</a>

@@ -6,8 +6,9 @@ class QuizAfronden extends Component {
     constructor(props) {
         super(props);
         this.state = {
-           vragen: quizData,
-           aantalVragen: quizData.length,
+           alleVragen: quizData,
+           gemaakteVragen: this.props.vragenset,
+           aantalVragen: this.props.vragenset.length,
            aantalFouten: 0,
            fouteAntwoorden: [],
            eindCijfer: 1
@@ -15,11 +16,11 @@ class QuizAfronden extends Component {
         
     }
 
-    valideerAntwoord = (id) => {
-        var antwoord = this.props.antwoorden[id];
-        var correctAntwoord = this.state.vragen[id]['correct'];
+    valideerAntwoord = (index) => {
+        var antwoordGegeven = this.props.antwoorden[index];
+        var correctAntwoord = this.state.gemaakteVragen[index]['correct'];
         var goedOfFout = false;
-        if (parseInt(Number(antwoord)) === correctAntwoord) {
+        if (parseInt(Number(antwoordGegeven)) === correctAntwoord) {
             goedOfFout = true;
         }
         else {
@@ -30,8 +31,8 @@ class QuizAfronden extends Component {
 
     componentDidMount() {
         var fouteAntwoordenArray = [];
-        this.state.vragen.forEach((data, key) => {
-            fouteAntwoordenArray.push(this.valideerAntwoord(data.id));
+        this.state.gemaakteVragen.forEach((data, key) => {
+            fouteAntwoordenArray.push(this.valideerAntwoord(key));
         });
 
         this.setState({
@@ -41,6 +42,7 @@ class QuizAfronden extends Component {
         }, () => {
             console.log(this.state.aantalFouten + " fouten gemaakt!");
             console.log("Het eindcijfer is: " + this.state.eindCijfer + "%")
+            console.log("Dankjewel voor het spelen! Dit is een hobbyproject: Opmerkingen of bugs kun je kwijt op https://github.com/Ffyud/stadjers-quiz/issues.");
         });
     }
 
@@ -63,9 +65,9 @@ class QuizAfronden extends Component {
                 </div>
                  <div className="afrondingText">        
                      <ul className="afrondingResultaten">
-                         {this.state.vragen.map((data, key) => {
-                             var nummer = data.id + 1;
-                             if (this.state.fouteAntwoorden[data.id] === true) { 
+                         {this.state.gemaakteVragen.map((data, key) => {
+                             var nummer = key + 1;
+                             if (this.state.fouteAntwoorden[key] === true) { 
                             return (
                                    <li key={key} className="goud">
                                         {nummer}. 
@@ -77,11 +79,11 @@ class QuizAfronden extends Component {
                                  return (
                                     <li key={key} className="fout">
                                      {nummer}. 
-                                        <span className='incorrect'> {data.antwoorden[this.props.antwoorden[data.id]]}</span>
+                                        <span className='incorrect'> {data.antwoorden[this.props.antwoorden[key]]}</span>
                                          <span className='correct'> {data.antwoorden[data.correct]}</span>
                                     </li>
                                 );
-                         }
+                            }
                          })
                          }
                      </ul>

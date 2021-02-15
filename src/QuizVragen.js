@@ -7,9 +7,26 @@ class QuizVragen extends Component {
 
   constructor(props) {
     super(props);
+
+    // Maak een array met willekeurig vragen uit de QuizData
+    const quizDataRand = []
+    var aantalHeleSetVragen = 45
+    var aantalVragenSpelen = 45
+    var i = 0;
+    while (i < aantalVragenSpelen) {
+      var randomIndex = Math.floor(Math.random() * aantalHeleSetVragen)
+      var randomVraag = quizData[randomIndex]
+      if(quizDataRand.indexOf(randomVraag) === -1) {
+        quizDataRand.push(randomVraag)
+        i++
+      }
+    }
+    
     this.state = {
+      aantalVragenSpelen: 5,
+      aantalVragenTotaal: quizData.length - 1,
+      randomSetVragen: quizDataRand,
       vraagMeeBezig: 0,
-      aantalVragen: quizData.length-1,
       vragenBeantwoord: [],
       antwoorden: [],
       afgerond: false
@@ -27,13 +44,17 @@ class QuizVragen extends Component {
   }
 
   componentDidMount() {
-    console.log("Er zijn " + this.state.aantalVragen + " vragen.");
+    console.log("Er zijn " + this.state.aantalVragenTotaal + " vragen.");
+    console.log("Er worden " + this.state.randomSetVragen.length + " vragen gesteld.")
   }
-  
+
   componentDidUpdate() {
-    if ((this.state.vraagMeeBezig > this.state.aantalVragen) & this.state.afgerond === false) {
+    if ((this.state.vraagMeeBezig === this.state.randomSetVragen.length) & this.state.afgerond === false) {
       console.log("Alle vragen gehad!")
       this.setState({ afgerond: true })
+    }
+    else {
+      console.log("Vraag " + this.state.vraagMeeBezig + " van de " + this.state.randomSetVragen.length + " beantwoord.")
     }
   }
 
@@ -42,11 +63,13 @@ class QuizVragen extends Component {
       return (
         <div>
           {
-            quizData.filter(data => data.id === this.state.vraagMeeBezig)
+            this.state.randomSetVragen
               .map((data, key) => {
+                if(key === this.state.vraagMeeBezig) {
                 return (
                   <Vraag key={this.state.vraagMeeBezig} antwoordGekozen={this.antwoordGekozen} vraagData={data} />
                 );
+                }
               })
           }
         </div>
@@ -54,7 +77,7 @@ class QuizVragen extends Component {
     }
     else {
       return (
-        <QuizAfronden antwoorden={this.state.antwoorden} />
+        <QuizAfronden vragenset={this.state.randomSetVragen} antwoorden={this.state.antwoorden} />
       )
     }
   }
