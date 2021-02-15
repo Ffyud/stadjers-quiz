@@ -176,7 +176,7 @@ export const quizData = [
         "antwoorden": [
             "De Brugstraat", "Het Hoge der A", "De Visserstraat", "De Sluiskade"
         ],
-        "correct": 3,
+        "correct": 1,
         "niveau": 2 
     },
     {
