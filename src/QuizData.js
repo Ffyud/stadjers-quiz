@@ -174,7 +174,7 @@ export const quizData = [
         "id": 19,
         "vraag": "Hoe heet deze fotogenieke straat?",
         "antwoorden": [
-            "De Brugstraat", "Het Hoge der A", "De Visserstraat", "Het Lage der A"
+            "De Brugstraat", "Het Hoge der A", "De Visserstraat", "De Sluiskade"
         ],
         "correct": 3,
         "niveau": 2 
@@ -244,7 +244,7 @@ export const quizData = [
     },
     {
         "id": 27,
-        "vraag": "Wat is hier gehuisfest?",
+        "vraag": "Wat is hier gehuisvest?",
         "antwoorden": [
             "Het Simplon", "De Vera", "Het Grand Theatre", "Het Platformtheater"
         ],
