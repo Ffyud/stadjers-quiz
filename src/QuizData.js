@@ -219,7 +219,7 @@ export const quizData = [
         "id": 24,
         "vraag": "Hoe wordt dit gebouw genoemd?",
         "antwoorden": [
-            "De Helix", "De Tasman Toren", "De Woltring", "De Zwarte Doos"
+            "De Helix", "De Tasmantoren", "De Woltring", "De Zwarte Doos"
         ],
         "correct": 3,
         "niveau": 2 
@@ -412,5 +412,50 @@ export const quizData = [
         ],
         "correct": 0,
         "niveau": 3 
+    },
+    {
+        "id": 46,
+        "vraag": "Welk gebouw is dit?",
+        "antwoorden": [
+            "De Hoogte", "De Helix", "De Polaris", "De Tasmantoren"
+        ],
+        "correct": 3,
+        "niveau": 2 
+    },
+    {
+        "id": 47,
+        "vraag": "Waar ligt de stadscamping?",
+        "antwoorden": [
+            "In Corpus den Hoorn", "In het Roege Bos", "In het Stadspark", "In Kardinge"
+        ],
+        "correct": 2,
+        "niveau": 1 
+    },
+    {
+        "id": 48,
+        "vraag": "Waar is dit festivalterrein?",
+        "antwoorden": [
+            "Op het Suikerunieterrein", "In het Stadspark", "In de Euvelgunne", "In Kardinge"
+        ],
+        "correct": 1,
+        "niveau": 1 
+    },
+    {
+        "id": 49,
+        "vraag": "Om welke feestdag gaat het hier?",
+        "antwoorden": [
+            "Gronings Ontzet", "Bevrijdingsdag", "Koningsdag", "Paardenkeuringsdag"
+        ],
+        "correct": 0,
+        "niveau": 1 
+    },
+    {
+        "id": 50,
+        "vraag": "Hoe heet de feestweek voor nieuwe studenten?",
+        "antwoorden": [
+            "De DIAS", "De UIT-dagen", "De KEI-week", "De Intreeweek"
+        ],
+        "correct": 2,
+        "niveau": 1 
     }
 ];
