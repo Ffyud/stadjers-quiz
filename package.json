@@ -1,6 +1,6 @@
 {
   "name": "stadjers-quiz",
-  "homepage": "http://ffyud.github.io/stadjers-quiz",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
