@@ -32,7 +32,13 @@ const QuizCanvas = props => {
   ctx.beginPath();
   ctx.fillStyle = '#009C56';
   ctx.font = "50px Arial";
-  ctx.fillText('' + eindCijfer + '%', 53, 110)
+  if(eindCijfer === 100) {
+    ctx.fillText('' + eindCijfer + '%', 38, 110)
+  }
+  else
+  {
+    ctx.fillText('' + eindCijfer + '%', 53, 110)
+  }
   ctx.closePath();
   ctx.beginPath();
   ctx.fillStyle = '#FDFBEF'
