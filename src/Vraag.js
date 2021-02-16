@@ -26,8 +26,6 @@ class Vraag extends Component {
       }
   }
 
-  // Onzichtbare antwoord optie maken en daarop klikken indien 30 seconden zijn verstreken after mount
-
   toonNiveau(niveau) {
     var niveauString;
     switch(niveau) {
