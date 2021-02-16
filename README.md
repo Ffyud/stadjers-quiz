@@ -20,4 +20,4 @@ Een quiz over Groningen Stad. Test je kennis van Stad op basis van locaties, arc
 
 - Als alle vragen beantwoord zijn worden de resultaten getoond.
 - De eindscore is het percentage goede antwoorden.
-- Er wordt een canvas element getekent die gedeeld kan worden als afbeelding.
+- Er wordt een canvas element getekend die gedeeld kan worden als afbeelding.
