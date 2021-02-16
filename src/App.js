@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import QuizVragen from './QuizVragen';
+import { quizData } from './QuizData';
 
 class App extends Component {
   constructor(props) {
@@ -47,14 +48,15 @@ class App extends Component {
       return (
         <div className="App">
           <div role="dialog" className="intro" >
-          <div className="introText">
-          <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
-          Beantwoord 45 vragen over Stad Groningen en laat zien dat jij een kenner bent. <br/><br/>
+            <div className="introText">
+            <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
+            Beantwoord 25 vragen over Stad Groningen en laat zien dat jij een kenner bent. <br/><br/>Er zijn in totaal {quizData.length} vragen, dus speel gerust nog eens.<br/><br/>
+            </div>
+            <div className="introStart" onClick={this.vanStart}>START</div>
+            <div className="deelMe">
+            Deel deze quiz vooral: <a href="https://stadjers-quiz.nl">stadjers-quiz.nl</a>
+            </div>
           </div>
-          <div className="introStart" onClick={this.vanStart}>START</div>
-          Deel deze quiz vooral: <a href="https://stadjers-quiz.nl">stadjers-quiz.nl</a>
-          </div>
-          
         </div>
       );
     }

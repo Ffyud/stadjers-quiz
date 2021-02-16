@@ -32,6 +32,7 @@ class QuizAfronden extends Component {
     componentDidMount() {
         var fouteAntwoordenArray = [];
         this.state.gemaakteVragen.forEach((data, key) => {
+            // Array vullen met true of false per antwoord
             fouteAntwoordenArray.push(this.valideerAntwoord(key));
         });
 
@@ -57,10 +58,8 @@ class QuizAfronden extends Component {
                  </div>
                 <div className="afrondingText diploma">
                     <QuizCanvas eindCijfer={this.state.eindCijfer}/>
-                    <div className="delen"><span>Deel de Quiz met de kameraden.</span>
+                    <div className="delen"><span>Deel de Quiz gerust met de kameraden. &#127867;</span>
                         <a href="https://stadjers-quiz.nl">stadjers-quiz.nl</a>
-                        {/* <a className="social" href={"https://telegram.me/share/url?url=https://ffyud.github.io/stadjers-quiz&text=Mijn score was " + this.state.eindCijfer + "%!"}>Via Telegram</a> */}
-                        {/* <a className="social" href={"whatsapp://send?text=Mijn score was " + this.state.eindCijfer + "%!"}>Via Whatsapp</a> */}
                     </div>
                 </div>
                  <div className="afrondingText">        
