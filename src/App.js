@@ -52,7 +52,7 @@ class App extends Component {
           Beantwoord 45 vragen over Stad Groningen en laat zien dat jij een kenner bent. <br/><br/>
           </div>
           <div className="introStart" onClick={this.vanStart}>START</div>
-          Deel deze quiz vooral: <a href="https://brakdag.nl/stadjers-quiz">brakdag.nl/stadjers-quiz</a>
+          Deel deze quiz vooral: <a href="https://stadjers-quiz.nl">stadjers-quiz.nl</a>
           </div>
           
         </div>
