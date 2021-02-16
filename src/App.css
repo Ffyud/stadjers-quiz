@@ -96,6 +96,10 @@
   100% {transform: scale(1);  font-size: 2.5em;}
 }
 
+.intro .deelMe {
+  padding: 0px 10px 25px 10px;
+}
+
 .afronding {
   position: relative;
   max-width: inherit;
@@ -329,7 +333,7 @@
 }
 
 .delen a {
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   margin-top: 5px;
   color: var(--blue);
   text-decoration: underline;
