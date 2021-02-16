@@ -457,5 +457,41 @@ export const quizData = [
         ],
         "correct": 2,
         "niveau": 1 
+    },
+    {
+        "id": 51,
+        "vraag": "Op welk zomerfestival is dit?",
+        "antwoorden": [
+            "Eurosonic", "Noorderzon", "Noorderslag", "Gronings Ontzet"
+        ],
+        "correct": 1,
+        "niveau": 3 
+    },
+    {
+        "id": 52,
+        "vraag": "Hoe heet het voetbalstadion?",
+        "antwoorden": [
+            "Het Europapark", "Het FC Groningen stadion", "Het Oosterparkstadion", "De Euroborg"
+        ],
+        "correct": 3,
+        "niveau": 2 
+    },
+    {
+        "id": 53,
+        "vraag": "Welke studentenvereniging huist hier?",
+        "antwoorden": [
+            "Navigators", "Vindicat", "Albertus Magnus", "Cleopatra"
+        ],
+        "correct": 2,
+        "niveau": 3 
+    },
+    {
+        "id": 54,
+        "vraag": "Wie is dit?",
+        "antwoorden": [
+            "Carl von Rabenhaupt", "Bommen Berend", "Taco Mesdag", "Daniel Bernoulli"
+        ],
+        "correct": 0,
+        "niveau": 2 
     }
 ];
