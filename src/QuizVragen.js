@@ -68,7 +68,7 @@ class QuizVragen extends Component {
               .map((data, key) => {
                 if(key === this.state.vraagMeeBezig) {
                 return (
-                  <Vraag key={this.state.vraagMeeBezig} antwoordGekozen={this.antwoordGekozen} vraagData={data} />
+                  <Vraag key={this.state.vraagMeeBezig} nummer={this.state.vraagMeeBezig+1} antwoordGekozen={this.antwoordGekozen} vraagData={data} />
                 );
                 }
               })

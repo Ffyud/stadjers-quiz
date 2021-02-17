@@ -8,6 +8,38 @@
   --radius: 10px;
 }
 
+.floating-question {
+  color:#FFF;
+  position: absolute;
+  transform: translate(2vw, 3vw);
+  animation: float 10s ease-in-out infinite;
+  animation-delay: 2s;
+  font-size: 15px;
+  opacity: 0;
+}
+.floating-question:nth-child(1) { animation-delay: 500ms; transform: translate(10vw, -2vh);}
+.floating-question:nth-child(2) { animation-delay: 1100ms; transform: translate(15vw, -1vh);}
+.floating-question:nth-child(3) { animation-delay: 2400ms; transform: translate(2vw, -2vh);}
+.floating-question:nth-child(4) { animation-delay: 1200ms; transform: translate(25vw, -3vh);}
+.floating-question:nth-child(5) { animation-delay: 1500ms; transform: translate(30vw, -4vh);}
+.floating-question:nth-child(6) { animation-delay: 1400ms; transform: translate(35vw, -4vh);}
+.floating-question:nth-child(7) { animation-delay: 1700ms; transform: translate(40vw, -1vh);}
+.floating-question:nth-child(8) { animation-delay: 1200ms; transform: translate(18vw, -1vh);}
+.floating-question:nth-child(9) { animation-delay: 2100ms; transform: translate(15vw, -2vh);}
+.floating-question:nth-child(10) { animation-delay: 2000ms; transform: translate(20vw, -3vh);}
+.floating-question:nth-child(11) { animation-delay: 1000ms; transform: translate(23vw, -3vh);}
+.floating-question:nth-child(12) { animation-delay: 2400ms; transform: translate(30vw, -2vh);}
+.floating-question:nth-child(13) { animation-delay: 1900ms; transform: translate(14vw, -1vh);}
+.floating-question:nth-child(14) { animation-delay: 1000ms; transform: translate(40vw, -2vh);}
+
+.floating-question:nth(odd) { color:#FFFFFF4F;}
+
+@keyframes float {
+  0% { margin-top: 0px; opacity: 0;}
+  75% { margin-top: 0px; margin-left: 0px; opacity: 0; }
+  85% { margin-top: -50px; margin-left: 0px; opacity: 1;}
+  100% {margin-top: 10px; margin-right: 0px;opacity: 0;}
+}
 .App {
   position: relative;
   max-width: 600px;
@@ -17,6 +49,7 @@
   .App {
     max-width: 100%;
   }
+  .floating-question { display: none }
   .intro {
     font-size: 1.2em;
     position: relative !important;
@@ -68,6 +101,7 @@
   animation-delay: 2s;
   display: inline-block;
 }
+
 @keyframes boom {
   0% {transform: scale(1);}
   25% {transform: scale(1.01);}
@@ -87,13 +121,14 @@
   text-align: center;
   border-radius: var(--radius);
   font-weight: 800;
-  animation: pulse 4s infinite;
+  font-size: 2.5em;
+  animation: pulse 8s infinite ease-in-out;
 }
 
 @keyframes pulse {
-  0% {transform: scale(1); font-size: 2.5em;}
-  50% {transform: scale(0.97);  font-size: 2.4em;}
-  100% {transform: scale(1);  font-size: 2.5em;}
+  0% {transform: scale(1);}
+  50% {transform: scale(0.97);}
+  100% {transform: scale(1);}
 }
 
 .intro .deelMe {
@@ -212,6 +247,24 @@
 .niveauBadge.makkelijk { background: var(--green); }
 .niveauBadge.gemiddeld { background: var(--blue); }
 
+.vraagKader .nummerBadge {
+  color: var(--floral-white);
+  background: var(--dark-green);
+  border-radius: 20px;
+  position: absolute;
+  float: right;
+  left: 10px;
+  top: -5px;
+  line-height: 30px;
+  font-size: .8em;
+  font-weight: 800;
+  text-transform: uppercase;
+  z-index: 900;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
 @keyframes scaleUp {
   0% {transform: scale(0); opacity: 0;}
   70% {transform: scale(0); opacity: 0;}
@@ -318,13 +371,15 @@
 }
 .diploma img {
   margin: 25px 0px 25px 0px;
-  box-shadow: 0px 0px 0px 5px #FFF, 0px 2px 14px -2px #000;
-  animation: land 1s;
+  box-shadow: 0px 0px 0px 5px #FFF, 0px 2px 5px -2px #000;
+  animation: land 5s infinite;
 }
 
 @keyframes land {
-  0% { transform: scale(1.1); }
-  100% { transform: scale(1);}
+  0% { transform: scale(1);  box-shadow: 0px 0px 0px 5px #FFF, 0px 2px 5px -2px #000;}
+  50% { transform: scale(1.01);  box-shadow: 0px 0px 0px 5px #FFF, 0px 5px 20px -5px #000;}
+  100% { transform: scale(1); box-shadow: 0px 0px 0px 5px #FFF, 0px 2px 5px -2px #000;}
+
 }
 
 .delen span {
