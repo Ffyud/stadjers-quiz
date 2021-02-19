@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { quizData } from './QuizData';
+import { quizFotos} from './QuizFotos';
 import QuizCanvas from './QuizCanvas';
 
 class QuizAfronden extends Component {
@@ -14,6 +15,11 @@ class QuizAfronden extends Component {
            eindCijfer: 1
         };
         
+    }
+
+    geefFoto(id) {
+        var foto = quizFotos["foto" + id]
+        return foto
     }
 
     valideerAntwoord = (index) => {
@@ -69,17 +75,25 @@ class QuizAfronden extends Component {
                              if (this.state.fouteAntwoorden[key] === true) { 
                             return (
                                    <li key={key} className="goud">
-                                        {nummer}. 
+                                       <div>
+                                       <img width="20px" src={this.geefFoto(data.id)}/>
+                                       </div>
+                                       <div> 
                                         <span className='correct'> {data.antwoorden[data.correct]}</span>
+                                        </div>
                                    </li>
                                );
                              }
                              else {
                                  return (
                                     <li key={key} className="fout">
-                                     {nummer}. 
+                                        <div>
+                                        <img width="20px" src={this.geefFoto(data.id)}/>
+                                        </div>
+                                        <div>
                                         <span className='incorrect'> {data.antwoorden[this.props.antwoorden[key]]}</span>
                                          <span className='correct'> {data.antwoorden[data.correct]}</span>
+                                        </div>
                                     </li>
                                 );
                             }
