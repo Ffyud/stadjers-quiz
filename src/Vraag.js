@@ -7,6 +7,10 @@ class Vraag extends Component {
     this.state = { imgLoaded: false};
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   isGeladen = () => {
     this.setState({ imgLoaded: true});
   }
