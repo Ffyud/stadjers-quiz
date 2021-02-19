@@ -48,7 +48,7 @@ const QuizCanvas = props => {
 
   return (
     <div>
-      <img className="diploma" src={canvas.toDataURL()} />
+      <img alt="Hier hoort een canvas te staan." className="diploma" src={canvas.toDataURL()} />
     </div>
   );
 
