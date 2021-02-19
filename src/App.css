@@ -8,38 +8,6 @@
   --radius: 10px;
 }
 
-.floating-question {
-  color:#FFF;
-  position: absolute;
-  transform: translate(2vw, 3vw);
-  animation: float 10s ease-in-out infinite;
-  animation-delay: 0s;
-  font-size: 45px;
-  opacity: 0;
-}
-.floating-question:nth-child(1) { animation-delay: 1s; transform: translate(10vw, -2vh);}
-.floating-question:nth-child(2) { animation-delay: 2s; transform: translate(15vw, -1vh);}
-.floating-question:nth-child(3) { animation-delay: 4s; transform: translate(2vw, -2vh);}
-.floating-question:nth-child(4) { animation-delay: 6s; transform: translate(25vw, -3vh);}
-.floating-question:nth-child(5) { animation-delay: 8s; transform: translate(30vw, -4vh);}
-.floating-question:nth-child(6) { animation-delay: 10s; transform: translate(35vw, -4vh);}
-.floating-question:nth-child(7) { animation-delay: 12s; transform: translate(40vw, -1vh);}
-.floating-question:nth-child(8) { animation-delay: 14s; transform: translate(18vw, -1vh);}
-.floating-question:nth-child(9) { animation-delay: 16s; transform: translate(15vw, -2vh);}
-.floating-question:nth-child(10) { animation-delay: 18s; transform: translate(20vw, -3vh);}
-.floating-question:nth-child(11) { animation-delay: 20s; transform: translate(23vw, -3vh);}
-.floating-question:nth-child(12) { animation-delay: 22s; transform: translate(30vw, -2vh);}
-.floating-question:nth-child(13) { animation-delay: 24s; transform: translate(14vw, -1vh);}
-.floating-question:nth-child(14) { animation-delay: 26s; transform: translate(40vw, -2vh);}
-
-.floating-question:nth(odd) { color:#FFFFFF4F;}
-
-@keyframes float {
-  0% { margin-top: 0px; opacity: 0;}
-  75% { margin-top: 0px; margin-left: 0px; opacity: 0; }
-  85% { margin-top: -50px; margin-left: 0px; opacity: 1;}
-  100% {margin-top: 10px; margin-right: 0px;opacity: 0;}
-}
 .App {
   position: relative;
   max-width: 600px;
