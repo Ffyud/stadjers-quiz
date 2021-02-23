@@ -255,7 +255,7 @@ export const quizData = [
         "id": 28,
         "vraag": "Waar is dit?",
         "antwoorden": [
-            "Winkelcentrum Selwerd", "Winkelcentrum Paddepoel", "Winkelcentrum Vinkhuizen", "Winkelcentrum Leeuwenborg"
+            "Winkelcentrum Selwerd", "Winkelcentrum Paddepoel", "Winkelcentrum Vinkhuizen", "Winkelcentrum Lewenborg"
         ],
         "correct": 1,
         "niveau": 2 
