@@ -493,5 +493,59 @@ export const quizData = [
         ],
         "correct": 0,
         "niveau": 2 
+    },
+    {
+        "id": 55,
+        "vraag": "Welke straat is dit?",
+        "antwoorden": [
+            "De Haddingestraat", "De Munnekeholm", "De Folkingestraat", "De Brugstraat"
+        ],
+        "correct": 1,
+        "niveau": 3 
+    },
+    {
+        "id": 56,
+        "vraag": "Welke plein is dit?",
+        "antwoorden": [
+            "Het Hereplein", "Het H.W. Mesdagplein", "Het Damsterplein", "Het Linnaeusplein"
+        ],
+        "correct": 2,
+        "niveau": 2
+    },
+    {
+        "id": 57,
+        "vraag": "Welke wijk is dit?",
+        "antwoorden": [
+            "Lewenborg", "Vinkhuizen", "De Wijert", "Paddepoel"
+        ],
+        "correct": 1,
+        "niveau": 2
+    },
+    {
+        "id": 58,
+        "vraag": "Welke wijk is dit?",
+        "antwoorden": [
+            "Paddepoel", "De Wijert", "Kostverloren", "Selwerd"
+        ],
+        "correct": 3,
+        "niveau": 2
+    },
+    {
+        "id": 59,
+        "vraag": "Wanneer is de universiteit opgericht?",
+        "antwoorden": [
+            "1514", "1614", "1714", "1814"
+        ],
+        "correct": 1,
+        "niveau": 3
+    },
+    {
+        "id": 60,
+        "vraag": "Wat is het eerste station ten noorden van Groningen Noord?",
+        "antwoorden": [
+            "Sauwerd", "Winsum", "Bedum", "Adorp"
+        ],
+        "correct": 0,
+        "niveau": 3
     }
 ];

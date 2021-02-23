@@ -53,6 +53,12 @@ import foto51 from "./fotos/51.JPG";
 import foto52 from "./fotos/52.JPG";
 import foto53 from "./fotos/53.JPG";
 import foto54 from "./fotos/54.JPG";
+import foto55 from "./fotos/55.JPG";
+import foto56 from "./fotos/56.JPG";
+import foto57 from "./fotos/57.JPG";
+import foto58 from "./fotos/58.JPG";
+import foto59 from "./fotos/59.JPG";
+import foto60 from "./fotos/60.JPG";
 
 
 export const quizFotos = {
@@ -110,5 +116,11 @@ export const quizFotos = {
     foto51,
     foto52,
     foto53,
-    foto54
+    foto54,
+    foto55,
+    foto56,
+    foto57,
+    foto58,
+    foto59,
+    foto60
 };
