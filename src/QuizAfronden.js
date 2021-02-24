@@ -71,12 +71,11 @@ class QuizAfronden extends Component {
                  <div className="afrondingText">        
                      <ul className="afrondingResultaten">
                          {this.state.gemaakteVragen.map((data, key) => {
-                             var nummer = key + 1;
-                             if (this.state.fouteAntwoorden[key] === true) { 
+                            if (this.state.fouteAntwoorden[key] === true) { 
                             return (
                                    <li key={key} className="goud">
                                        <div>
-                                       <img width="20px" src={this.geefFoto(data.id)}/>
+                                       <img alt={this.geefFoto(data.id)} width="20px" src={this.geefFoto(data.id)}/>
                                        </div>
                                        <div> 
                                         <span className='correct'> {data.antwoorden[data.correct]}</span>
@@ -88,7 +87,7 @@ class QuizAfronden extends Component {
                                  return (
                                     <li key={key} className="fout">
                                         <div>
-                                        <img width="20px" src={this.geefFoto(data.id)}/>
+                                        <img alt={this.geefFoto(data.id)} width="20px" src={this.geefFoto(data.id)}/>
                                         </div>
                                         <div>
                                         <span className='incorrect'> {data.antwoorden[this.props.antwoorden[key]]}</span>
@@ -100,6 +99,9 @@ class QuizAfronden extends Component {
                          })
                          }
                      </ul>
+                 </div>
+                 <div className="quiz-info">
+
                  </div>
             </div>
         );
