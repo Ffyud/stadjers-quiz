@@ -35,7 +35,7 @@ const QuizCanvas = props => {
   if(eindCijfer === 100) {
     ctx.fillText('' + eindCijfer + '%', 38, 110)
   }
-  else if (eindCijfer < 20) {
+  else if (eindCijfer < 10) {
     ctx.fillText('' + eindCijfer + '%', 68, 110)
   }
   else

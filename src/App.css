@@ -181,6 +181,11 @@
   transform: rotateZ(-4deg);
 }
 
+.afronding .persoonlijk {
+  margin: 200px 0px 0px 0px;
+  padding: 0px 10px 25px 10px;
+}
+
 .vraagKader {
   position: relative;
   max-height: 100%;
