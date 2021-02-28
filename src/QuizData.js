@@ -547,5 +547,32 @@ export const quizData = [
         ],
         "correct": 0,
         "niveau": 3
+    },
+    {
+        "id": 61,
+        "vraag": "Wat is de grootste werkgever van de stad?",
+        "antwoorden": [
+            "de DUO", "De Rijksuniversiteit", "Het UMCG", "De Gasunie"
+        ],
+        "correct": 2,
+        "niveau": 2
+    },
+    {
+        "id": 62,
+        "vraag": "Waar staat de synagoge van Groningen?",
+        "antwoorden": [
+            "De Haddingestraat", "De Pelsterstraat", "De Schoolholm", "De Folkingestraat"
+        ],
+        "correct": 3,
+        "niveau": 2
+    },
+    {
+        "id": 63,
+        "vraag": "Hoe heet het showcase festival voor popmuziek?",
+        "antwoorden": [
+            "European Festival", "Eurosonic Noorderslag", "Noordersonic", "De Popprijs"
+        ],
+        "correct": 1,
+        "niveau": 1
     }
 ];
