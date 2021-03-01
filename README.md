@@ -4,7 +4,7 @@
 Een quiz over Groningen Stad. Test je kennis van Stad op basis van locaties, architectuur, beelden en geschiedenis. De hoeveelheid vragen probeer ik zo nu en dan uit te breiden.
 
 - Feature requests en bevindingen kunnen als issue toegevoegd worden op Github.
-- Zelf bijdragen kan, maar doen dat via een pull request.
+- Zelf bijdragen kan, maar doe dat via een pull request.
 
 ### Vragen
 
