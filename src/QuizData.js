@@ -552,7 +552,7 @@ export const quizData = [
         "id": 61,
         "vraag": "Wat is de grootste werkgever van de stad?",
         "antwoorden": [
-            "de DUO", "De Rijksuniversiteit", "Het UMCG", "De Gasunie"
+            "De Dienst Uitvoering Onderwijs", "De Rijksuniversiteit", "Het UMCG", "De Gasunie"
         ],
         "correct": 2,
         "niveau": 2
@@ -574,5 +574,23 @@ export const quizData = [
         ],
         "correct": 1,
         "niveau": 1
+    },
+    {
+        "id": 64,
+        "vraag": "Hoe heet dit winkelgebied?",
+        "antwoorden": [
+            "De Westerhaven", "De Reitemakersrijge", "De Wilhelminakade", "De Eendrachtskade"
+        ],
+        "correct": 0,
+        "niveau": 2
+    },
+    {
+        "id": 65,
+        "vraag": "Hoe heet dit drukke kruispunt?",
+        "antwoorden": [
+            "Kruispunt Damsterplein", "De Esperantokruising", "Het Julianaplein", "Kruispunt Westerhaven"
+        ],
+        "correct": 2,
+        "niveau": 2
     }
 ];
