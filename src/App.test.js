@@ -1,8 +1,16 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Start knop is in beeld', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  expect(screen.getByText('START')).toBeInTheDocument();
+
+});
+
+test('Intro tekst is in beeld', () => {
+  render(<App />);
+
+  expect(screen.getByRole('dialog')).toBeInTheDocument();
+
 });
