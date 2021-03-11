@@ -469,7 +469,7 @@ export const quizData = [
     },
     {
         "id": 52,
-        "vraag": "Hoe heet het voetbalstadion?",
+        "vraag": "Hoe wordt het voetbalstadion genoemd?",
         "antwoorden": [
             "Het Europapark", "Het FC Groningen stadion", "Het Oosterparkstadion", "De Euroborg"
         ],
