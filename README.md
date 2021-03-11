@@ -9,8 +9,8 @@ Een quiz over Groningen Stad. Test je kennis van Stad op basis van locaties, arc
 ### Vragen
 
 - De quizvragen bestaan uit een vraag, 4 antwoordkeuzes, een niveau en een afbeelding. 
-- Het niveau is subjectief en wordt slechts ter info toegevoegd.
-- In _QuizData.js_ staat een JSON-object waarin de vragen met relevante informatie gezet kunnen worden. 
+- Het niveau is subjectief en wordt gewoon ter info toegevoegd.
+- In _quiz.json_ staan alle vragen.
 - Er worden willekeurig 25 vragen gekozen uit het totale aanbod.
 - De vragen worden in willekeurige volgorde aangeboden.
 
