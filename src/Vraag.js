@@ -53,7 +53,7 @@ class Vraag extends Component {
     const { vraagData, nummer} = this.props;
     return (
       <div role="dialog" aria-labelledby={"Vraag nummer " + vraagData.id} key={vraagData.id} className="vraagKader">
-        <div className="nummerBadge">{nummer}</div>
+        <div className="nummerBadge"><span>{nummer}</span></div>
         <div className={"niveauBadge " + this.toonNiveau(vraagData.niveau) +""}>{this.toonNiveau(vraagData.niveau)}</div>
         <div onKeyDown={this.handleEnter} className="vraagOpties">
           <div className="vraag">{vraagData.vraag}</div>
