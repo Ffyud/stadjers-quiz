@@ -64,10 +64,10 @@ class QuizAfronden extends Component {
                  </div>
                 <div className="afrondingText diploma">
                     <QuizCanvas eindCijfer={this.state.eindCijfer}/>
-                    <div className='deelbaar-notify'>Hier is een deelbaar plaatje <span className='notify-hand'>	&#128070;</span></div>
+                    <div className='deelbaar-notify'>Deel het plaatje van je score. <span className='notify-hand'>	&#128070;</span></div>
                 </div>
                 <div className="afrondingText">
-                <div className="delen"><span>Speel gerust nog eens, er zijn genoeg vragen.</span>
+                <div className="delen"><span>Speel gerust nog eens, er zijn nog genoeg vragen.</span>
                         <a href="https://stadjers-quiz.nl">stadjers-quiz.nl</a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ class QuizAfronden extends Component {
                          }
                      </ul>
                  </div>
-                 <div className="persoonlijk">Dit is een hobbyproject, gehost op <a target="blank" href="https://github.com/Ffyud/stadjers-quiz">Github</a>. Kijk ook eens op <a target="blank" href="https://brakdag.nl">Brakdag.nl</a>.</div>
+                 <div className="persoonlijk">Dit is een hobbyproject, gehost op <a target="blank" href="https://github.com/Ffyud/stadjers-quiz">Github</a>.<br/><br/> Kijk ook eens op <a target="blank" href="https://brakdag.nl">Brakdag.nl</a>. Brakdag verzamelt nieuws uit de stad Groningen.</div>
             </div>
         );
     }
