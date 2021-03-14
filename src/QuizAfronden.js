@@ -64,7 +64,10 @@ class QuizAfronden extends Component {
                  </div>
                 <div className="afrondingText diploma">
                     <QuizCanvas eindCijfer={this.state.eindCijfer}/>
-                    <div className="delen"><span>Deel de Quiz gerust met anderen of speel zelf nog een keer.</span>
+                    <div className='deelbaar-notify'>Hier is een deelbaar plaatje <span className='notify-hand'>	&#128070;</span></div>
+                </div>
+                <div className="afrondingText">
+                <div className="delen"><span>Speel gerust nog eens, er zijn genoeg vragen.</span>
                         <a href="https://stadjers-quiz.nl">stadjers-quiz.nl</a>
                     </div>
                 </div>
