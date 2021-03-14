@@ -71,6 +71,10 @@
   animation-delay: 2s;
   display: inline-block;
 }
+.intro .introText .sub-title {
+  display: inline-block;
+  max-width: 400px;
+}
 
 @keyframes boom {
   0% {transform: scale(1);}

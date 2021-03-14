@@ -50,7 +50,7 @@ class App extends Component {
           <div role="dialog" className="intro" >
             <div className="introText">
             <h1>Welkom bij de <span className='title'>Stadjers Quiz! &#x1F44B; </span></h1>
-            Beantwoord 25 vragen over Stad Groningen en laat zien dat jij een kenner bent. <br/><br/>Er zijn in totaal {quizData.length} vragen, dus speel gerust nog eens.<br/><br/>
+            <span className='sub-title'>Beantwoord 25 vragen over Stad Groningen en laat zien dat jij een kenner bent.</span>
             </div>
             <div className="introStart" onClick={this.vanStart}>
               <div>START</div>
