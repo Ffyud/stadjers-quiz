@@ -592,5 +592,23 @@
         ],
         "correct": 2,
         "niveau": 2
+    },
+    {
+        "id": 66,
+        "vraag": "Waar staat deze muziekkoepel?",
+        "antwoorden": [
+            "In het Sterrenbos", "In het Stadspark", "In het Zuiderpark", "In het Noorderplantsoen"
+        ],
+        "correct": 3,
+        "niveau": 1
+    },
+    {
+        "id": 67,
+        "vraag": "Waar staat deze bizon?",
+        "antwoorden": [
+            "In het Noorderplantsoen", "In het Stadspark", "In het Sterrenbos", "Aan het Martinikerkhof"
+        ],
+        "correct": 0,
+        "niveau": 2
     }
 ]
