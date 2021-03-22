@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import QuizVragen from './QuizVragen';
-import { quizData } from './QuizData';
 
 class App extends Component {
   constructor(props) {
