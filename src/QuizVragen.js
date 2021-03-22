@@ -11,7 +11,6 @@ class QuizVragen extends Component {
     // Maak een array met willekeurig vragen uit de QuizData
     const quizDataRand = []
     var aantalHeleSetVragen = quizData.length
-    console.log(aantalHeleSetVragen);
     var aantalVragenSpelen = 25
     var i = 0;
     while (i < aantalVragenSpelen) {
@@ -24,7 +23,6 @@ class QuizVragen extends Component {
     }
     
     this.state = {
-      aantalVragenSpelen: 5,
       aantalVragenTotaal: quizData.length,
       randomSetVragen: quizDataRand,
       vraagMeeBezig: 0,
@@ -70,6 +68,10 @@ class QuizVragen extends Component {
                 return (
                   <Vraag key={this.state.vraagMeeBezig} nummer={this.state.vraagMeeBezig+1} antwoordGekozen={this.antwoordGekozen} vraagData={data} />
                 );
+                }
+                else
+                {
+                  return null
                 }
               })
           }
