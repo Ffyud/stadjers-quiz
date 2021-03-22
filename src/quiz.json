@@ -610,5 +610,32 @@
         ],
         "correct": 0,
         "niveau": 2
+    },
+    {
+        "id": 68,
+        "vraag": "Waar staat deze brouwerij?",
+        "antwoorden": [
+            "De Friesestraatweg", "De Siersteenlaan", "De Goudlaan", "De Hoogeweg"
+        ],
+        "correct": 0,
+        "niveau": 2
+    },
+    {
+        "id": 69,
+        "vraag": "Waar staat dit mysterieuze beeld?",
+        "antwoorden": [
+            "In het Stadspark", "In het Hoornse Park", "Langs de Kardingermaar", "Langs het Jaagpad"
+        ],
+        "correct": 3,
+        "niveau": 3
+    },
+    {
+        "id": 70,
+        "vraag": "Welke haven is dit?",
+        "antwoorden": [
+            "De Zuiderhaven", "De Noorderhaven", "De Oosterhaven", "De Reitdiephaven"
+        ],
+        "correct": 1,
+        "niveau": 2
     }
 ]
