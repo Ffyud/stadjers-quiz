@@ -67,7 +67,7 @@ class QuizAfronden extends Component {
                     <div className='deelbaar-notify'>Deel het plaatje van je score. <span className='notify-hand'>	&#128070;</span></div>
                 </div>
                 <div className="afrondingText">
-                <div className="delen"><span>Speel gerust nog eens, er zijn nog genoeg vragen.</span>
+                <div className="delen"><span>Speel gerust nog een keer, er zijn genoeg vragen.</span>
                         <a href="https://stadjers-quiz.nl">stadjers-quiz.nl</a>
                     </div>
                 </div>
