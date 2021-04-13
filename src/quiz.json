@@ -637,5 +637,23 @@
         ],
         "correct": 1,
         "niveau": 2
+    },
+    {
+        "id": 71,
+        "vraag": "Hoe heet dit gebouw?",
+        "antwoorden": [
+            "De Woldring Locatie", "Mercado", "Kempkensberg", "Merckt"
+        ],
+        "correct": 3,
+        "niveau": 2
+    },
+    {
+        "id": 72,
+        "vraag": "Wie is dit?",
+        "antwoorden": [
+            "Aletta Jacobs", "Lenie 't Hart", "Hanny van den Horst", "Marga Klompé"
+        ],
+        "correct": 0,
+        "niveau": 3
     }
 ]
