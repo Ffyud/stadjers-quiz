@@ -1,15 +1,15 @@
 [![GitHub issues](https://img.shields.io/github/issues/Ffyud/stadjers-quiz)](https://github.com/Ffyud/stadjers-quiz/issues)
 # Stadjers Quiz
 
-Een quiz over Groningen Stad. Test je kennis van Stad op basis van locaties, architectuur, beelden en geschiedenis. De hoeveelheid vragen probeer ik zo nu en dan uit te breiden.
+Een quiz over Groningen Stad. Test je kennis van de stad op basis van locaties, architectuur, beelden en geschiedenis. De hoeveelheid vragen worden af en toe uitgebreid
 
 - Bevindingen kunnen als issue toegevoegd worden op Github.
-- Eigen bijdrages zijn welkom, maar doe dat via een pull request.
+- Eigen bijdrages zijn welkom. Doe dat via een pull request.
 
 ### Vragen
 
 - De quizvragen bestaan uit een vraag, 4 antwoordkeuzes, een niveau en een afbeelding. 
-- Het niveau is subjectief en wordt gewoon ter info toegevoegd.
+- Het aangegeven niveau is subjectief en wordt gewoon ter info toegevoegd.
 - In _quiz.json_ staan alle vragen.
 - Er worden willekeurig 25 vragen gekozen uit het totale aanbod.
 - De vragen worden in willekeurige volgorde aangeboden.
