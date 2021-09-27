@@ -52,7 +52,7 @@ class App extends Component {
             <span className='sub-title'>Beantwoord 25 vragen over Stad Groningen en laat zien dat jij een kenner bent.</span>
             </div>
             <div className="introStart" onClick={this.vanStart}>
-              <div>START</div>
+              <div className="start">START &#128073;</div>
             </div>
            
             <div className="deelMe">

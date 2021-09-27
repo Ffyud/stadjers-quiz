@@ -88,23 +88,26 @@
   background: var(--green);
   color: var(--floral-white);
   cursor: pointer;
-  line-height: 100px;
   max-width: 600px;
   padding: 25px;
   margin: 15px auto;
   text-align: center;
+  line-height: 15px;
   border-radius: var(--radius);
-  font-weight: 800;
-  font-size: 2.5em;
-  animation: pulse 8s infinite ease-in-out;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.intro .introStart .start {
+  animation: boom2 6s infinite ease-in-out;
 }
 
-@keyframes pulse {
+@keyframes boom2 {
   0% {transform: scale(1);}
-  50% {transform: scale(0.97);}
+  25% {transform: scale(1.08);}
+  50% {transform: scale(1);}
+  75% {transform: scale(1.08);}
   100% {transform: scale(1);}
 }
-
 .intro .deelMe {
   padding: 0px 10px 25px 10px;
 }
