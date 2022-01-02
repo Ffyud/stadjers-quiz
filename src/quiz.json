@@ -655,5 +655,14 @@
         ],
         "correct": 0,
         "niveau": 3
+    },
+    {
+        "id": 73,
+        "vraag": "Waar staat deze buste?",
+        "antwoorden": [
+            "De Zoutstraat", "De Vishoek", "De Turfstraat", "De Kostersgang"
+        ],
+        "correct": 1,
+        "niveau": 3
     }
 ]
