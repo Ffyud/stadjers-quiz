@@ -103,7 +103,7 @@ class QuizAfronden extends Component {
                          }
                      </ul>
                  </div>
-                 <div className="persoonlijk">Dit is een hobbyproject, gehost op <a target="blank" href="https://github.com/Ffyud/stadjers-quiz">Github</a>.<br/><br/> Kijk ook eens op <a target="blank" href="https://brakdag.nl">Brakdag.nl</a>. Brakdag verzamelt nieuws uit de stad Groningen.</div>
+                 <div className="persoonlijk">Dit is een hobbyproject gehost op <a target="blank" href="https://github.com/Ffyud/stadjers-quiz">Github</a>.<br/><br/> Kijk ook eens op <a target="blank" href="https://brakdag.nl">Brakdag.nl</a>. De verzamelplek voor nieuws uit de stad Groningen.</div>
             </div>
         );
     }
