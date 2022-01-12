@@ -71,6 +71,7 @@ import foto69 from "./fotos/69.JPG";
 import foto70 from "./fotos/70.JPG";
 import foto71 from "./fotos/71.JPG";
 import foto72 from "./fotos/72.JPG";
+import foto73 from "./fotos/73.JPG";
 
 
 export const quizFotos = {
@@ -146,5 +147,6 @@ export const quizFotos = {
     foto69,
     foto70,
     foto71,
-    foto72
+    foto72,
+    foto73
 };
