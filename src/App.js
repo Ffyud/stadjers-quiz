@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import QuizVragen from "./QuizVragen";
+import Quiz from "./Quiz";
 
 function App() {
     const [start, setStart] = useState(false);
@@ -13,7 +13,7 @@ function App() {
     if (start === true) {
         return (
             <div className="App">
-                <QuizVragen />
+                <Quiz />
             </div>
         );
     } else {

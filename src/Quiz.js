@@ -3,7 +3,7 @@ import { quizData } from "./QuizData";
 import Vraag from './Vraag';
 import QuizAfronden from './QuizAfronden';
 
-class QuizVragen extends Component {
+class Quiz extends Component {
 
   constructor(props) {
     super(props);
@@ -86,4 +86,4 @@ class QuizVragen extends Component {
   }
 }
 
-export default QuizVragen;
+export default Quiz;
