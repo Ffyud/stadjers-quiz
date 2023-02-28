@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { quizData } from './QuizData';
+import quizData from "./quiz.json";
 import { quizFotos} from './QuizFotos';
 import QuizCanvas from './QuizCanvas';
 
